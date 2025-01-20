@@ -22,8 +22,7 @@ The syringe pump is designed to provide precise and controlled delivery of fluid
 * Easy-to-use controls for operation, pause, and reversal
 
 # Components
-* Off-the-Shelf Parts
-
+**Off-the-Shelf Parts**
 | Part Name                | Description                           | Quantity |
 |--------------------------|---------------------------------------|----------|
 | Stepper Motor            | Provides motion to drive lead screw   | 1        |
@@ -33,7 +32,8 @@ The syringe pump is designed to provide precise and controlled delivery of fluid
 | Limit Switch             | Detects when syringe is fully depressed | 1        |
 | Power Supply (AC/DC)     | Converts AC to DC for Arduino and breadboard | 1   |
 
-* 3D Printed Parts Required
+**3D Printed Parts Required** 
+
 | Part Name                | Description                           | Quantity |
 |--------------------------|---------------------------------------|----------|
 | Syringe Holder Base      | Holds syringe in place                | 1        |
