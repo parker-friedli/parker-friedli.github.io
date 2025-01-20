@@ -8,9 +8,9 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+excerpt: "Parker Friedli is an aspiring mechanical engineer with a passion for transforming innovative ideas into tangible solutions. Currently pursing a Bachalor of Science in Mechanical Engineering at Vanderbilt University, she is dedicated to mastering the art and science of turning chaoe into order through engineering and problem solving."
 feature_row:
-  - image_path: assets/img/syringe-real.jpg
+  - image_path: assets/img/syringe_real.png
     alt: "Syringe Pump"
     title: "Custom Fabricated Syringe Pump"
     #excerpt: ""
