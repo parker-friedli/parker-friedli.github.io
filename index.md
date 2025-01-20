@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Parker Friedli is an aspiring mechanical engineer with a passion for transforming innovative ideas into tangible solutions. Currently pursuing a Bachelor of Science in Mechanical Engineering at Vanderbilt University, she is dedicated to turning chaos into order through engineering.:
+excerpt: "Parker Friedli is an aspiring mechanical engineer with a passion for transforming innovative ideas into tangible solutions. Currently pursuing a Bachelor of Science in Mechanical Engineering at Vanderbilt University, she is dedicated to turning chaos into order through engineering."
   - image_path: assets/img/syringe_real.png
     alt: "Syringe Pump"
     title: "Custom Fabricated Syringe Pump"
