@@ -23,13 +23,11 @@ Creative and technivally skilled Mechanical Engineering student with experience 
   * Easton, MD
 
 ## Technical Skills
-Parker can operate a variety of computer-controlled (CNC) fabrication tools to transform 3D models into real-life parts. She has experience with the following additive manufacturing technologies:
+* Computer
+  * SolidWorks (Certified), AutoCAD, MATLAB, LabVIEW, Java, Microsoft Office Suite
+* Equipment
+  * 3D Printing, Laser Cutting, Mill, lathe, CNC, MIG welding, drill press, band saw
 
-* Material Extrusion: Proficient in using 3D printers that deposit material layer by layer to build objects, commonly known as Fused Deposition Modeling (FDM). 
-
-#Vat Photopolymerization: Experienced with technologies like stereolithography (SLA) that cure liquid photopolymer resin using a light source to #form solid parts. 
-
-#Powder Bed Fusion: Familiar with processes that use thermal energy to fuse powder particles, such as Selective Laser Sintering (SLS). 
-
-#These skills enable Parker to effectively produce high-quality components tailored to specific project requirements. 
-
+## Awards & Publications
+* Vanderbilt Crescere Aude Scholar
+  
