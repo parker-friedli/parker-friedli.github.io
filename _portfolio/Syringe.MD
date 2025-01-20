@@ -2,8 +2,8 @@
 title: "Syringe Pump"
 excerpt: "Syringe pump with adjustable flow rates and compatibility for various syringe types."
 header:
-  image: /assets/img/syringe_real.png
-  teaser: /assets/img/render.jpg
+  image: /assets/img/render.jpg
+  teaser: /assets/img/syringe_real.png
 gallery:
   - image_path: assets/img/wiring.png
   - image_path: assets/img/drawing1.png
