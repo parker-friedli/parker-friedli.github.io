@@ -1,0 +1,126 @@
+# include <AccelStepper.h>
+
+int syringe = 1; ///CHANGE SYRINGE HERE, 1 is LARGE 2 is SMALL
+int milsPerMin = 15; ///CHANGE MILS PER MIN HERE
+
+int pi = 3.1415926535897932384626433832795;
+int red_LED_pin = 11;
+int green_LED_pin = 10;
+int blue_LED_pin = 9;
+int latch_pin = 4;
+int on_off_pin = 5;
+int reverseButton = 6;
+
+boolean hasStopped = false;
+boolean hasReversed = false;
+
+AccelStepper stepperX(AccelStepper::DRIVER, 3, 2);
+//^^the constructor: a stepper motor is being driven by a driver,
+//  the next number is the pin for the step signal followed by the pin
+//  for the direction signal
+
+double convertToStepsPerSec(int syringeSize, int mLPerMin){
+  double mmPerStep = 0.04; //bc we are not microstepping == 8mm / 200 steps per rev
+  double bigD = 18.6;
+  double smallD = 12.85;
+  double mLPerStep = 0;
+  
+  if (syringeSize == 1){ //big one
+    mLPerStep = mmPerStep * ((bigD/2.0) * (bigD/2.0)) * pi;
+    return ((60.0 * mLPerMin) / mLPerStep); //the set speed parameter
+  }
+  if (syringeSize == 2){ //small one
+    mLPerStep = mmPerStep * ((smallD/2) * (smallD/2)) * pi;
+    return ((60.0 * mLPerMin) / mLPerStep); //the set speed parameter
+  }
+  else {
+    return 0;
+  }
+  
+}
+
+double howFast = convertToStepsPerSec(syringe, milsPerMin);
+
+void setup() {
+  // put your setup code here, to run once:
+  stepperX.setMaxSpeed(1000); //1000 steps per second, most have 200 steps per rotation
+  //so the max rotations per second is 5 rotations per second
+  //have to increase the max speed before the next line bc the default max speed
+  //is only 1 rotation per second
+  stepperX.setSpeed(howFast);
+  // 50/200 = 1/4 rotation per second
+  pinMode(red_LED_pin, OUTPUT);
+  pinMode(green_LED_pin, OUTPUT);
+  pinMode(blue_LED_pin, OUTPUT);
+  pinMode(latch_pin, INPUT_PULLUP);
+  pinMode(on_off_pin, INPUT_PULLUP);
+  pinMode(reverseButton, INPUT_PULLUP);
+}
+// ^^void setup will always be run once at startup
+//low == pressed for button/on_off_pin (on); low == pressed for the latch pin (off)
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  if((digitalRead(on_off_pin) == LOW) && (digitalRead(latch_pin) == HIGH)){
+    if (hasStopped){
+      analogWrite(red_LED_pin, 255);
+      analogWrite(green_LED_pin, 0);
+      analogWrite(blue_LED_pin, 255);
+      stepperX.setSpeed(0);
+      stepperX.runSpeed();
+      if(digitalRead(reverseButton)== LOW){
+        stepperX.setSpeed(-750);
+        stepperX.runSpeed();
+        hasReversed = true;
+      }
+      else {
+        hasStopped = false;
+      }
+//      if(digitalRead(reverseButton) == LOW){
+//        hasStopped = false;
+//      }
+    }
+    else {
+      stepperX.setSpeed(howFast);
+      hasReversed = false;      
+      analogWrite(red_LED_pin, 0);
+      analogWrite(green_LED_pin, 255);
+      analogWrite(blue_LED_pin , 0);
+      stepperX.runSpeed();
+    }
+  }
+
+  if((digitalRead(on_off_pin) == LOW) && (digitalRead(latch_pin) == LOW)){
+    analogWrite(red_LED_pin, 255);
+    analogWrite(green_LED_pin, 0);
+    analogWrite(blue_LED_pin, 0);
+    stepperX.setSpeed(0);
+    stepperX.runSpeed();
+    hasStopped = true;
+    if (hasStopped){
+      stepperX.setSpeed(0);
+      stepperX.runSpeed();
+      if(digitalRead(reverseButton)== LOW){
+        stepperX.setSpeed(-750);
+        stepperX.runSpeed();
+        hasReversed = true;
+      }
+    }
+  }
+
+  if((digitalRead(on_off_pin) == HIGH) && (digitalRead(latch_pin) == HIGH)){
+    if ((hasStopped) && (hasReversed == false)){
+      analogWrite(red_LED_pin, 0);
+      analogWrite(green_LED_pin, 0);
+      analogWrite(blue_LED_pin, 255);
+    }
+    else {
+      analogWrite(red_LED_pin, 255);
+      analogWrite(green_LED_pin, 215);
+      analogWrite(blue_LED_pin, 0);
+    }
+  }
+}
+//^^ runs continuously after setup
+
