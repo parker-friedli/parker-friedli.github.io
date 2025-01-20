@@ -2,8 +2,8 @@
 title: "Syringe Pump"
 excerpt: "Syringe pump with adjustable flow rates and compatibility for various syringe types."
 header:
-  image: /assets/img/render.png
-  teaser: /assets/img/syringe_real.png
+  image: /assets/img/syringe_real.png
+  teaser: /assets/img/render.jpg
 gallery:
   - image_path: assets/img/wiring.png
   - image_path: assets/img/drawing1.png
@@ -26,6 +26,7 @@ The syringe pump is designed to provide precise and controlled delivery of fluid
 
 # Components
 **Off-the-Shelf Parts**
+
 | Part Name                | Description                           | Quantity |
 |--------------------------|---------------------------------------|----------|
 | Stepper Motor            | Provides motion to drive lead screw   | 1        |
