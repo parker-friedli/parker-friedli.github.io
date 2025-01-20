@@ -83,8 +83,8 @@ og_image                 :
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://www.instagram.com/dr.dflo"
+  #links: # An array of links to social media profiles
+   # - "https://www.instagram.com/dr.dflo"
 
 # Analytics
 analytics:
@@ -97,7 +97,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/img/David_Headshot_web2.jpg"
+  avatar           : "assets/img/portrait.jpg"
   bio              : "An engineer with a passion for designing "
   location         : "Nashville, TN"
   links:
