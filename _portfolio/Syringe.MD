@@ -56,5 +56,5 @@ The syringe pump is designed to provide precise and controlled delivery of fluid
 The full Arduino code for controlling the syringe pump can be accessed through my GitHub repository [here](https://github.com/parker-friedli/parker-friedli.github.io/blob/0512d142ed77940a472a36297beb53b25aa8523d/_portfolio/syringe_pump_project_code)
 
 # CAD Model
-#<iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" #allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4c1562112373539a7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 {% include gallery caption="Syringe Pump Project Gallery" %}
