@@ -12,8 +12,8 @@ excerpt: "Parker Friedli is an aspiring mechanical engineer with a passion for t
   - image_path: assets/img/syringe_real.png
     alt: "Syringe Pump"
     title: "Custom Fabricated Syringe Pump"
-    #excerpt: ""
-  #- image_path: assets/img/Plasma-Cutter-Banner.jpg
+    # excerpt: ""
+  # - image_path: assets/img/Plasma-Cutter-Banner.jpg
   #  alt: "placeholder image 2"
   #  title: "DIY Plasma Cutter"
   #  excerpt: "A hot plasma stream slices through sheet metal."
@@ -23,4 +23,3 @@ excerpt: "Parker Friedli is an aspiring mechanical engineer with a passion for t
 ---
 
 {% include feature_row %}
-
