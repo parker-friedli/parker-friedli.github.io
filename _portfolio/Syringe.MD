@@ -1,4 +1,3 @@
-
 ---
 title: "Syringe Pump"
 excerpt: "Syringe pump with adjustable flow rates and compatibility for various syringe types."
