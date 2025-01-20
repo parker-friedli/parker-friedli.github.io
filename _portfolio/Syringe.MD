@@ -36,7 +36,7 @@ The syringe pump is designed to provide precise and controlled delivery of fluid
 
 
 # Arduino Code
-The full Arduino code for controlling the syringe pump can be accessed through my GitHub repository here: 
+The full Arduino code for controlling the syringe pump can be accessed through my GitHub repository [here](https://github.com/parker-friedli/parker-friedli.github.io/blob/0512d142ed77940a472a36297beb53b25aa8523d/_portfolio/syringe_pump_project_code)
 
 # Components
 * Off-the-Shelf Parts
