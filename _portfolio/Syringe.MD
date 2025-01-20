@@ -32,7 +32,7 @@ The syringe pump is designed to provide precise and controlled delivery of fluid
 | Limit Switch             | Detects when syringe is fully depressed | 1        |
 | Power Supply (AC/DC)     | Converts AC to DC for Arduino and breadboard | 1   |
 
-**3D Printed Parts Required** 
+**3D Printed Parts** 
 
 | Part Name                | Description                           | Quantity |
 |--------------------------|---------------------------------------|----------|
