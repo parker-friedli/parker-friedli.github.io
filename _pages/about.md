@@ -18,7 +18,7 @@ Creative and technivally skilled Mechanical Engineering student with experience 
 * Senior Technical Crew — Vanderbilt Institute of Nanoscale Science & Engineering
   * Summer 2025
   * Nashville, TN
-* Enginnering Internm — Easton Utilities
+* Enginnering Intern — Easton Utilities
   * Summer 2024
   * Easton, MD
 
@@ -27,10 +27,9 @@ Parker can operate a variety of computer-controlled (CNC) fabrication tools to t
 
 * Material Extrusion: Proficient in using 3D printers that deposit material layer by layer to build objects, commonly known as Fused Deposition Modeling (FDM). 
 
-#* Vat Photopolymerization: Experienced with technologies like stereolithography (SLA) that cure liquid photopolymer resin using a light source to #form solid parts. 
+#Vat Photopolymerization: Experienced with technologies like stereolithography (SLA) that cure liquid photopolymer resin using a light source to #form solid parts. 
 
-#* Powder Bed Fusion: Familiar with processes that use thermal energy to fuse powder particles, such as Selective Laser Sintering (SLS). 
+#Powder Bed Fusion: Familiar with processes that use thermal energy to fuse powder particles, such as Selective Laser Sintering (SLS). 
 
 #These skills enable Parker to effectively produce high-quality components tailored to specific project requirements. 
 
-##
