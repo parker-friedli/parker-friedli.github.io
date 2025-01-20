@@ -11,7 +11,8 @@ gallery:
   - image_path: assets/img/drawing3.png
   - image_path: assets/img/drawing4.png
   - image_path: assets/img/drawing5.png
-   
+
+
 ---
 
 # Purpose & Features of the Syringe Pump Design
