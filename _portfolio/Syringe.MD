@@ -1,18 +1,16 @@
+
 ---
 title: "Syringe Pump"
 excerpt: "Syringe pump with adjustable flow rates and compatibility for various syringe types."
 header:
-  image: /assets/img/render.jpg
+  image: /assets/img/syringe_render.png
   teaser: /assets/img/syringe_real.png
 gallery:
-  - image_path: assets/img/wiring.png
-  - image_path: assets/img/drawing1.png
-  - image_path: assets/img/drawing2.png
-  - image_path: assets/img/drawing3.png
-  - image_path: assets/img/drawing4.png
-  - image_path: assets/img/drawing5.png
+  - image_path: assets/img/Slide-3.png
+  - image_path: assets/img/Slide-2.png
+  - image_path: assets/img/Slide-4.png
+   
 ---
-
 
 # Purpose & Features of the Syringe Pump Design
 The syringe pump is designed to provide precise and controlled delivery of fluids, such as medication or nutrients, which is vital in biomedical, healthcare, and industrial applications. This device uses a stepper motor to turn a lead screw, pushing the syringe plunger forward to deliver fluid in a controlled, consistent manner. The pump accommodates syringes ranging from 5 mL to 20 mL, with adjustable flow rates. Key features include...
