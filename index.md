@@ -1,5 +1,5 @@
 ---
-title: "Build & Design"
+title: "Engineer & Maker"
 layout: splash
 header:
   overlay_color: "#000"
