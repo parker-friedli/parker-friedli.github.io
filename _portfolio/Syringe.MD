@@ -11,13 +11,34 @@ gallery:
    
 ---
 
-# Features
+# Purpose & Features of the Syringe Pump Design
+The syringe pump is designed to provide precise and controlled delivery of fluids, such as medication or nutrients, which is vital in biomedical, healthcare, and industrial applications. This device uses a stepper motor to turn a lead screw, pushing the syringe plunger forward to deliver fluid in a controlled, consistent manner. The pump accommodates syringes ranging from 5 mL to 20 mL, with adjustable flow rates. Key features include...
 
-* **Massive Print Area: 1140 x 1200 x 1100 mm.** With a build envelop just shy of 4 feet in all dimensions, the LF3DP is capable of printing furniture and other large objects.
-* **High Volumetric Output Extruder: 1 kg/hr - 450 C.** This printer come standard with a MDPH2 extruder by Massive Dimension, which can extrude at a rate of 1 kg/hr. Unlike typical filament extruders, the MDPH2 uses a screw to convey and liquify plastic pellets before the molten material is pushed out of a large nozzle (1 to 5 mm extrusion diameter). Please note: This printer can also be configured for other high flow rate extruders, such as the Typhoon and Pulsar by Dyze Design.
-* **Affordable Pellet Feedstock** Pellets are the cheapest form of feedstock for any plastic-based manufacturing process. Save 50-75% of material costs by using pellets instead of spools of filament. Concentrated colorant can be added to the virgin material to achieve any color in the rainbow without requiring large amounts of storage. Recyled material can also be used for sustainable material printing.
+* Adjustable syringe sizes (5mL to 20mL)
+* Stepper motor-driven lead screw mechanism
+* Adjustable syringe stabilizers for precise placement
+* LED indicator system for operational status
+* Reversible pump for resetting syringes
+* Easy-to-use controls for operation, pause, and reversal
+
 
 # CAD Model
 #<iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" #allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
+# Operating Instructions
+1. Insert a syringe (5 mL or 20 mL) into the holder and secure it using the strap.
+2. In the Arduino code, set the syringe size (1 for 20mL, 2 for 5mL) and desired flow rate (mL per minute).
+3. Upload the code to the Arduino and power on the pump.
+4. Press the "On/Off" button to start the pump, indicated by the green LED.
+5. Press the button again to pause the pump (yellow LED).
+6. Once the syringe is empty, the red LED will activate. Press the reverse button to reset the pump (purple LED).
+7. Once reversed, the pump is ready for another cycle, indicated by the yellow LED.
+
+
+# Arduino Code
+The full Arduino code for controlling the syringe pump can be accessed through my GitHub repository here: 
+
+# Components
+* Off-the-Shelf Parts
+* 3D Printed Parts
+{% include gallery caption="Syringe Pump Project Gallery" %}
