@@ -21,9 +21,27 @@ The syringe pump is designed to provide precise and controlled delivery of fluid
 * Reversible pump for resetting syringes
 * Easy-to-use controls for operation, pause, and reversal
 
+# Components
+* Off-the-Shelf Parts
 
-# CAD Model
-#<iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" #allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+| Part Name                | Description                           | Quantity |
+|--------------------------|---------------------------------------|----------|
+| Stepper Motor            | Provides motion to drive lead screw   | 1        |
+| Arduino Uno              | Microcontroller for control           | 1        |
+| LED Lights               | RGB LEDs for status indication        | 3        |
+| Push Buttons             | For controlling pump operation       | 2        |
+| Limit Switch             | Detects when syringe is fully depressed | 1        |
+| Power Supply (AC/DC)     | Converts AC to DC for Arduino and breadboard | 1   |
+
+* 3D Printed Parts Required
+| Part Name                | Description                           | Quantity |
+|--------------------------|---------------------------------------|----------|
+| Syringe Holder Base      | Holds syringe in place                | 1        |
+| Barrel Stabilizer        | Stabilizes syringe barrel             | 1        |
+| Plunger Holder           | Holds syringe plunger during operation | 1        |
+| Enclosure Box            | Protective casing for electronics     | 1        |
+| Motor Mount              | Secures motor in place               | 1        |
+
 
 # Operating Instructions
 1. Insert a syringe (5 mL or 20 mL) into the holder and secure it using the strap.
@@ -34,11 +52,9 @@ The syringe pump is designed to provide precise and controlled delivery of fluid
 6. Once the syringe is empty, the red LED will activate. Press the reverse button to reset the pump (purple LED).
 7. Once reversed, the pump is ready for another cycle, indicated by the yellow LED.
 
-
 # Arduino Code
 The full Arduino code for controlling the syringe pump can be accessed through my GitHub repository [here](https://github.com/parker-friedli/parker-friedli.github.io/blob/0512d142ed77940a472a36297beb53b25aa8523d/_portfolio/syringe_pump_project_code)
 
-# Components
-* Off-the-Shelf Parts
-* 3D Printed Parts
+# CAD Model
+#<iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" #allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 {% include gallery caption="Syringe Pump Project Gallery" %}
