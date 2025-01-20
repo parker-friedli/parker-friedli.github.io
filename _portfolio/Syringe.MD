@@ -57,6 +57,6 @@ The full Arduino code for controlling the syringe pump can be accessed through m
 
 # CAD Model
 
-The interactive Fusion 360 model of the assembly can be found [here](iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4c1562112373539a7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe)
+The interactive Fusion 360 model of the assembly can be found [here](https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4c1562112373539a7?mode=embed")
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
