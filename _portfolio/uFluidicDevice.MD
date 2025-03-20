@@ -42,8 +42,21 @@ The effectiveness of PFF is influenced by several factors:
 
 A specific application that requires the sorting of small particles is the isolation and purification of **circulating tumor cells (CTCs)** from blood samples for cancer diagnostics. CTCs are rare and often present in very low concentrations in the bloodstream, but their presence can provide valuable insights into cancer progression, metastasis, and treatment response. Pinch Flow Fractionation (PFF) can be used to separate CTCs from other blood components like red blood cells and white blood cells based on size. This separation enables further analysis of the CTCs, which could lead to early cancer detection, monitoring of treatment effectiveness, and personalized medicine approaches. [P Sajeesh, Ashis Jumar Sen, 2013]
 
-## Procedure for Fabrication of PDMS Device from a 3D-Printed Mold
-The fabrication of a polydimethylsiloxane (PDMS) device using a 3D-printed mold required the completion of multiple steps to ensure the final device meets the desired functional specifications. The following protocol outlines the process in detail.
+## Procedure for Fabrication of Final Device from 3D-Printed Mold
+The fabrication of the final (PDMS) device involved multiple steps to ensure functionality. The following describes the process in detail.
+
+**1. CAD Model Design**
+  - **Model Development:** The 3D model of the microfluidic device was designed using Fusion 360, incorporating all necessary features such as the inlets, broad section, outlets, and given design specifications. *The design specifics will be discused below.*
+**2. 3D Printing and Mold Post-Processing**
+  - **Mold Fabrication:** The mold was printed using a Formlabs 3+ SLA printer with Black Resin to achieve high feature fidelity and smooth surfaces. 
+  - **Post-Processing:** After printing, the mold was washed in isopropyl alcohol (IPA) to remove uncured resin. It was then cured under UV light at 60 °C for approximately 60 seconds to enhance mechanical stability.
+  - **Surface Inspection:** The mold was examined for defects and surface finish, ensuring that the surfaces were smooth enough to facilitate demolding and ensure no remaining un-cured resin residue.
+**3. Parylene Coating**
+Coating Application: A parylene-C coating was applied to the mold using a chemical vapor deposition (CVD) system to ensure chemical inertness (no reaction with resin), and a non-stick surface. 
+Deposition Process: The manufacturer's recommended parameters were followed, using approximately 2 grams of parylene-C to achieve uniform coverage.
+**4. PDMS Casting and Curing**
+
+**5. Plasma Bonding to a Glass Substrate**
 
 
 
