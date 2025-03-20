@@ -1,7 +1,7 @@
 ---
 
-title: "Syringe Pump"
-excerpt: "Syringe pump with adjustable flow rates and compatibility for various syringe types."
+title: "Microfluidic Pinch Flow Fractination Device"
+excerpt: "Utilizing SLA printing resolution for the creation of precise microfluidic device."
 header:
   image: /assets/img/render.jpg
   teaser: /assets/img/syringe_real.png
