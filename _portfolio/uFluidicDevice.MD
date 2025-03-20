@@ -47,13 +47,16 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 **1. CAD Model Design**
   - **Model Development:** The 3D model of the microfluidic device was designed using Fusion 360, incorporating all necessary features such as the inlets, broad section, outlets, and given design specifications. *The design specifics will be discused below.*
-**2. 3D Printing and Mold Post-Processing**
+
+2. 3D Printing and Mold Post-Processing
   - **Mold Fabrication:** The mold was printed using a Formlabs 3+ SLA printer with Black Resin to achieve high feature fidelity and smooth surfaces. 
   - **Post-Processing:** After printing, the mold was washed in isopropyl alcohol (IPA) to remove uncured resin. It was then cured under UV light at 60 °C for approximately 60 seconds to enhance mechanical stability.
   - **Surface Inspection:** The mold was examined for defects and surface finish, ensuring that the surfaces were smooth enough to facilitate demolding and ensure no remaining un-cured resin residue.
+
 **3. Parylene Coating**
 Coating Application: A parylene-C coating was applied to the mold using a chemical vapor deposition (CVD) system to ensure chemical inertness (no reaction with resin), and a non-stick surface. 
 Deposition Process: The manufacturer's recommended parameters were followed, using approximately 2 grams of parylene-C to achieve uniform coverage.
+
 **4. PDMS Casting and Curing**
 
 **5. Plasma Bonding to a Glass Substrate**
