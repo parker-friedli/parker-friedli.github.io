@@ -16,15 +16,14 @@ gallery:
 
 ---
 
-# Purpose & Features of the Syringe Pump Design
-The syringe pump is designed to provide precise and controlled delivery of fluids, such as medication or nutrients, which is vital in biomedical, healthcare, and industrial applications. This device uses a stepper motor to turn a lead screw, pushing the syringe plunger forward to deliver fluid in a controlled, consistent manner. The pump accommodates syringes ranging from 5 mL to 20 mL, with adjustable flow rates. Key features include...
+# Introduction to uFluidic Devices
+Microfluidic devices are systems that use small amounts of fluids which manipulate through channels ranging from tens to hundreds of micrometers. These channels function as small pipes that control flow, allowing for experimentation and analysis which extreme precision. These devices have allowed various fields, including biology, chemistry, and medicine, through the precise flow, rapid analysis, and minimizing reagent consumption; in essence functioning as a small Lab on a chip. [1]
 
-* Adjustable syringe sizes (5mL to 20mL)
-* Stepper motor-driven lead screw mechanism
-* Adjustable syringe stabilizers for precise placement
-* LED indicator system for operational status
-* Reversible pump for resetting syringes
-* Easy-to-use controls for operation, pause, and reversal
+uFluidic devices can be designed to serve various functions including…
+
+* **Mixing**: These microscale channels enable precise fluid blending and combination, which is essential for conducting chemical processes and preparing samples for analysis
+* **Chemical Reactions**: The microfluidic chamber's controlled environment enables precise chemical reactions for drug discovery and material synthesis
+* **Separation**: Some devices can separate components within a mixture based on size, density, or other properties. 
 
 
 # Components
