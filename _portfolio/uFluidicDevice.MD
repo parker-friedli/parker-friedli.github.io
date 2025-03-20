@@ -4,7 +4,7 @@ title: "Microfluidic Pinch Flow Fractination Device"
 excerpt: "Utilizing SLA printing resolution for the creation of precise microfluidic device."
 header:
   image: /assets/img/IMG_5117.jpeg
-  teaser: /assets/img/syringe_real.png
+  teaser: /assets/img/IMG_5117.jpeg
 gallery:
   - image_path: assets/img/wiring.png
   - image_path: assets/img/drawing1.png
@@ -16,17 +16,39 @@ gallery:
 
 ---
 
-# Introduction to uFluidic Devices
-Microfluidic devices are systems that use small amounts of fluids which manipulate through channels ranging from tens to hundreds of micrometers. These channels function as small pipes that control flow, allowing for experimentation and analysis which extreme precision. These devices have allowed various fields, including biology, chemistry, and medicine, through the precise flow, rapid analysis, and minimizing reagent consumption; in essence functioning as a small Lab on a chip. [1]
+## Introduction to uFluidic Devices
+Microfluidic devices are systems that use small amounts of fluids which manipulate through channels ranging from tens to hundreds of micrometers. These channels function as small pipes that control flow, allowing for experimentation and analysis which extreme precision. These devices have allowed various fields, including biology, chemistry, and medicine, through the precise flow, rapid analysis, and minimizing reagent consumption; in essence functioning as a small *Lab on a chip*. [1]
 
 uFluidic devices can be designed to serve various functions including…
 
 * **Mixing**: These microscale channels enable precise fluid blending and combination, which is essential for conducting chemical processes and preparing samples for analysis
 * **Chemical Reactions**: The microfluidic chamber's controlled environment enables precise chemical reactions for drug discovery and material synthesis
 * **Separation**: Some devices can separate components within a mixture based on size, density, or other properties. 
+This project involved the development of a microfluidic device that employs the technique of **pinch flow fractionation (PFF)**, a method that performs particle **separation** based on particle size.
 
 
-# Components
+**Basic Concept of PFF:**
+
+PFF operates using a microchannel with a pinched segment to **separate** particles according to their size. The technique relies on the laminar flow profile within the microchannel, thereby eliminating the need for external fields (which are commonly used in other separation methods such as field flow fractionation).
+
+**Mechanism:** 
+
+The effectiveness of PFF is influenced by several factors:
+
+- **Microchannel Geometry:** The design of the microchannel, particularly the width of the pinched segment and the angle at the transition between the pinched and broadened segments, plays a significant role in the separation efficiency. A narrower pinched segment typically results in improved separation.
+- **Flow Rates:** The ratio of flow rates from the inlets is critical, as it determines the width of the particle-containing liquid in the pinched segment. This ratio influences the alignment of particles to the sidewall, thereby affecting the overall separation efficiency.
+
+**Application:**
+
+A specific application that requires the sorting of small particles is the isolation and purification of **circulating tumor cells (CTCs)** from blood samples for cancer diagnostics. CTCs are rare and often present in very low concentrations in the bloodstream, but their presence can provide valuable insights into cancer progression, metastasis, and treatment response. Pinch Flow Fractionation (PFF) can be used to separate CTCs from other blood components like red blood cells and white blood cells based on size. This separation enables further analysis of the CTCs, which could lead to early cancer detection, monitoring of treatment effectiveness, and personalized medicine approaches. [P Sajeesh, Ashis Jumar Sen, 2013]
+
+## Procedure for Fabrication of PDMS Device from a 3D-Printed Mold
+The fabrication of a polydimethylsiloxane (PDMS) device using a 3D-printed mold required the completion of multiple steps to ensure the final device meets the desired functional specifications. The following protocol outlines the process in detail.
+
+
+
+
+
 **Off-the-Shelf Parts**
 
 | Part Name                | Description                           | Quantity |
