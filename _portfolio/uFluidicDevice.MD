@@ -70,7 +70,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 ##Discussion of Key Elements of uFluidic Device
 - **Purpose of Parylene Coating**
-- ****
+- $y=(w_P - DP/2)\frac{w_B}{w_P}$
 
 **Off-the-Shelf Parts**
 
