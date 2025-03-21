@@ -68,47 +68,16 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 - **Plasma Surface Activation:** Both the PDMS and glass surfaces were treated using a plasma cleaner (e.g., Harrick Plasma Cleaner) to induce surface activation, generating silanol groups for enhanced adhesion.
 - **Bonding Process:** The PDMS layer was aligned with the glass slide and pressed together, forming a strong, bond due to the plasma activation.
 
-##Discussion of Key Elements of uFluidic Device
+## Discussion of Key Elements of uFluidic Device
 - **Purpose of Parylene Coating**
   The use of parylene coating on resin-printed molds is essential for compatibility, chemical resistance, and surface properties of the final microfluidic   devices. One of the primary challenges in using SLA 3D-printed molds for soft lithography is that most  resins inhibit PDMS curing, preventing accurate   replication of microfluidic features. Research has shown that SLA resins contain phosphine oxide-based photo-initiators, which leach out and interfere    with the platinum-based PDMS catalyst, effectively poisoning the curing process [3].  Parylene coating provides a solution by forming a protective   barrier on the mold surface, preventing direct contact between the PDMS and any residual inhibitors. Additionally, the coating ensures easy demolding of PDMS, preserving the integrity of the flow channels and microstructures while maintaining consistent and reproducible device fabrication. 
-- $y=(w_P - DP/2)\frac{w_B}{w_P}$
 
-**Off-the-Shelf Parts**
-
-| Part Name                | Description                           | Quantity |
-|--------------------------|---------------------------------------|----------|
-| Stepper Motor            | Provides motion to drive lead screw   | 1        |
-| Arduino Uno              | Microcontroller for control           | 1        |
-| LED Lights               | RGB LEDs for status indication        | 3        |
-| Push Buttons             | For controlling pump operation       | 2        |
-| Limit Switch             | Detects when syringe is fully depressed | 1        |
-| Power Supply (AC/DC)     | Converts AC to DC for Arduino and breadboard | 1   |
-
-**3D Printed Parts** 
-
-| Part Name                | Description                           | Quantity |
-|--------------------------|---------------------------------------|----------|
-| Syringe Holder Base      | Holds syringe in place                | 1        |
-| Barrel Stabilizer        | Stabilizes syringe barrel             | 1        |
-| Plunger Holder           | Holds syringe plunger during operation | 1        |
-| Enclosure Box            | Protective casing for electronics     | 1        |
-| Motor Mount              | Secures motor in place               | 1        |
+- **Geometry for Sorting**
+- **Flow Rate Uniformity and Streamline Stability**
+- **Future Improvements Based on Testing**
 
 
 
-# Operating Instructions
-1. Insert a syringe (5 mL or 20 mL) into the holder and secure it using the strap.
-2. In the Arduino code, set the syringe size (1 for 20mL, 2 for 5mL) and desired flow rate (mL per minute).
-3. Upload the code to the Arduino and power on the pump.
-4. Press the "On/Off" button to start the pump, indicated by the green LED.
-5. Press the button again to pause the pump (yellow LED).
-6. Once the syringe is empty, the red LED will activate. Press the reverse button to reset the pump (purple LED).
-7. Once reversed, the pump is ready for another cycle, indicated by the yellow LED.
-
-
-
-# Arduino Code
-The full Arduino code for controlling the syringe pump can be accessed through my GitHub repository [here](https://github.com/parker-friedli/parker-friedli.github.io/blob/0512d142ed77940a472a36297beb53b25aa8523d/_portfolio/syringe_pump_project_code)
 
 
 
