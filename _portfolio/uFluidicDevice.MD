@@ -1,7 +1,7 @@
 ---
 
 title: "Microfluidic Pinch Flow Fractination Device"
-excerpt: "Utilizing SLA printing resolution for the creation of precise microfluidic device."
+excerpt: "Utilizing SLA printing for the creation of precise microfluidic device."
 header:
   image: /assets/img/IMG_5117.jpeg
   teaser: /assets/img/IMG_5117.jpeg
@@ -54,16 +54,23 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   - **Surface Inspection:** The mold was examined for defects and surface finish, ensuring that the surfaces were smooth enough to facilitate demolding and ensure no remaining un-cured resin residue.
 
 **3. Parylene Coating**
-Coating Application: A parylene-C coating was applied to the mold using a chemical vapor deposition (CVD) system to ensure chemical inertness (no reaction with resin), and a non-stick surface. 
-Deposition Process: The manufacturer's recommended parameters were followed, using approximately 2 grams of parylene-C to achieve uniform coverage.
+- **Coating Application:** A parylene-C coating was applied to the mold using a chemical vapor deposition (CVD) system to ensure chemical inertness (no reaction with resin), and a non-stick surface. 
+- **Deposition Process:** The manufacturer's recommended parameters were followed, to achieve uniform coverage.
 
 **4. PDMS Casting and Curing**
+- **PDMS Preparation:** A PDMS mixture was prepared by combining the elastomer base and curing agent at a 10:1 weight ratio. The mixture was stirred thoroughly to ensure homogeneity.
+- **Degassing:** The prepared PDMS was placed in a vacuum desiccator for 30 minutes to eliminate trapped air bubbles.
+- **Mold Casting:** The degassed PDMS was poured onto the parylene-coated mold, ensuring complete coverage of all microfluidic features.
+- **Thermal Curing:** The mold was placed in an oven at 60°C for approximately 2 hours to fully cure the polymer.
 
 **5. Plasma Bonding to a Glass Substrate**
+- **Glass Preparation:** A glass microscope slide was cleaned thoroughly with acetone and IPA to remove contaminants and improve bonding efficiency.
+- **Plasma Surface Activation:** Both the PDMS and glass surfaces were treated using a plasma cleaner (e.g., Harrick Plasma Cleaner) to induce surface activation, generating silanol groups for enhanced adhesion.
+- **Bonding Process:** The PDMS layer was aligned with the glass slide and pressed together, forming a strong, bond due to the plasma activation.
 
-
-
-
+##Discussion of Key Elements of uFluidic Device
+- **Purpose of Parylene Coating**
+- ****
 
 **Off-the-Shelf Parts**
 
