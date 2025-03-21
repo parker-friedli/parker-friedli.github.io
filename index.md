@@ -14,10 +14,10 @@ feature_row:
     alt: "Syringe Pump"
     title: "Custom Fabricated Syringe Pump"
     #excerpt: ""
-  #- image_path: assets/img/Plasma-Cutter-Banner.jpg
-  #  alt: "placeholder image 2"
-  #  title: "DIY Plasma Cutter"
-  #  excerpt: "A hot plasma stream slices through sheet metal."
+  - image_path: assets/img/parylene_coating.png
+    alt: "Microfluidic Device"
+    title: "Pinch Flow Fractination Device using SLA Printing"
+    excerpt: ""
  # - image_path: assets/img/Zidex-Thumbnail.jpg
  #   title: "Bespoke IDEX 3D Printer"
   #  excerpt: "Multimaterial printing. "
