@@ -116,6 +116,9 @@ footer:
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://www.instagram.com/dr.dflo"
 
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
 
 # Reading Files
 include:
