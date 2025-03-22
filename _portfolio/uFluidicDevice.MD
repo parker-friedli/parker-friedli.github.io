@@ -95,6 +95,13 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
       $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$
       $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
+| Column 1 Header | Column 2 Header | Column 3 Header |
+|----------------|----------------|----------------|
+| Row 1, Cell 1  | Row 1, Cell 2  | Row 1, Cell 3  |
+| Row 2, Cell 1  | Row 2, Cell 2  | Row 2, Cell 3  |
+| Row 3, Cell 1  | Row 3, Cell 2  | Row 3, Cell 3  |
+
+
 - **Flow Rate Uniformity and Streamline Stability**
 - **Future Improvements Based on Testing**
 
@@ -104,8 +111,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 
 # CAD Model
-
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4c1562112373539a7?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a43ec6ba2c8022d8a4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
 ![](/assets/img/syringe_real.png)
