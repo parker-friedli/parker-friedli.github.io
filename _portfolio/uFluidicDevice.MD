@@ -56,7 +56,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 **2. 3D Printing and Mold Post-Processing**
   - **Mold Fabrication:** The mold was printed using a Formlabs 3+ SLA printer with Black Resin to achieve high feature fidelity and smooth surfaces. 
-  - **Post-Processing:** After printing, the mold was washed in isopropyl alcohol (IPA) to remove uncured resin. It was then cured under UV light at 60 °C for approximately 60 seconds to enhance mechanical stability.
+  - **Post-Processing:** After printing, the mold was washed in isopropyl alcohol (IPA) to remove uncured resin. It was then cured under UV light at 60 °C for approximately 60 seconds to enhance mechanical stability [^1].
   - **Surface Inspection:** The mold was examined for defects and surface finish, ensuring that the surfaces were smooth enough to facilitate demolding and ensure no remaining un-cured resin residue.
 
 **3. Parylene Coating**
@@ -83,7 +83,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   The use of parylene coating on resin-printed molds is essential for compatibility, chemical resistance, and surface properties of the final microfluidic   devices. One of the primary challenges in using SLA 3D-printed molds for soft lithography is that most  resins inhibit PDMS curing, preventing accurate   replication of microfluidic features. Research has shown that SLA resins contain phosphine oxide-based photo-initiators, which leach out and interfere    with the platinum-based PDMS catalyst, effectively poisoning the curing process [^3].  Parylene coating provides a solution by forming a protective   barrier on the mold surface, preventing direct contact between the PDMS and any residual inhibitors. Additionally, the coating ensures easy demolding of PDMS, preserving the integrity of the flow channels and microstructures while maintaining consistent and reproducible device fabrication. 
   ![](/assets/img/parlyene_coating.png)
 
-**Geometry for Sorting**
+**Geometry for Sorting:**
 ![](/assets/img/blank_mold.png)
     $$ 
     y=(w_P - D_P/2)\frac{w_B}{w_P}
@@ -104,11 +104,11 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 <img src="/assets/img/section_view.png" width="800px" />
 
 
-**Flow Rate Uniformity and Streamline Stability**
+**Flow Rate Uniformity and Streamline Stability:**
 
 <img src="/assets/img/Outlets_calibrated.png" width="800px" />
 
-**Future Improvements Based on Testing**
+**Future Improvements Based on Testing:**
 
 
 
