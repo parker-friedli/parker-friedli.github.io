@@ -39,7 +39,7 @@ The effectiveness of PFF is influenced by several factors:
 
 | Principles of PPF [4]| Example Flow Profile [4] |
 |---------|---------|
-| ![](assets/img/PFF.png) | ![](assets/img/streamlines.png) |
+| ![](/assets/img/PFF.png) | ![](/assets/img/streamlines.png) |
 
 - **Flow Rates:** The ratio of flow rates from the inlets is critical, as it determines the width of the particle-containing liquid in the pinched segment. This ratio influences the alignment of particles to the sidewall, thereby affecting the overall separation efficiency.
 
