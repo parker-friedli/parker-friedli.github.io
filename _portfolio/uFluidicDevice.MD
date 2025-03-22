@@ -36,6 +36,11 @@ PFF operates using a microchannel with a pinched segment to **separate** particl
 The effectiveness of PFF is influenced by several factors:
 
 - **Microchannel Geometry:** The design of the microchannel, particularly the width of the pinched segment and the angle at the transition between the pinched and broadened segments, plays a significant role in the separation efficiency. A narrower pinched segment typically results in improved separation.
+
+| Image 1 | Image 2 |
+|---------|---------|
+| ![Alt text](assets/img/PFF.png) | ![Alt text](streamlins.png) |
+
 - **Flow Rates:** The ratio of flow rates from the inlets is critical, as it determines the width of the particle-containing liquid in the pinched segment. This ratio influences the alignment of particles to the sidewall, thereby affecting the overall separation efficiency.
 
 **Application:**
