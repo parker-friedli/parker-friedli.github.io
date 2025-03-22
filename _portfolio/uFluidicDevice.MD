@@ -85,13 +85,15 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 **Geometry for Sorting:**
 ![](/assets/img/blank_mold.png)
-    $$y=(w_P - D_P/2)\frac{w_B}{w_P}$$
+    $$
+    y=(w_P - D_P/2)\frac{w_B}{w_P}
+    $$<br>
 
-    where...
-      $$w_B=19 \text{ mm}$$
-      $$w_P=0.75 \text{ m}$$
-      $$D_{\text{small}}=0.150 \text{ m}$$
-      $$D_{\text{large}}=0.500 \text{ m}$$
+    where...<br>
+    $$w_B=19 \text{ mm}$$<br>
+    $$w_P=0.75 \text{ m}$$<br>
+    $$D_{\text{small}}=0.150 \text{ m}$$<br>
+    $$D_{\text{large}}=0.500 \text{ m}$$<br>
     
     then...
       $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$
