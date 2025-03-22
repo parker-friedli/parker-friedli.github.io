@@ -110,14 +110,15 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 
 
-
-
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a43ec6ba2c8022d8a4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 
 ## References
 [^1]: O'grady, B. J., Geuy, M. D., Kim, H., Balotin, K. M., Allchin, E. R., Florian, D. C., Bute, N. N., Scott, T. E., Lowen, G. B., Fricker, C. M., Fitzgerald, M. L., Guelcher, S. A., Wikswo, J. P., & Bellan, L. M. E. S. (2021). Lab on a Chip . https://doi.org/10.1039/d1lc00744k
 [^2]: Sajeesh, P., Kumar, A., & Sen, Á. A. K. (2013). Particle separation and sorting in microfluidic devices: a review. https://doi.org/10.1007/s10404-013-1291-9
 [^3]: Venzac, B., Deng, S., Mahmoud, Z., Lenferink, A., Costa, F. A., Bray, C., Otto, C., & Rolando, S. (2021). PDMS curing inhibition on 3D-printed molds: Why? Also, how to avoid it? https://doi.org/10.1021/acs.analchem.0c04944
 [^4]: Yamada, M., Nakashima, M., & Seki, M. (2004). Pinched flow fractionation: Continuous size separation of particles utilizing a laminar flow profile in a pinched microchannel. https://doi.org/10.1021/ac049863r
+
+\
 {% include gallery caption="Syringe Pump Project Gallery" %}
