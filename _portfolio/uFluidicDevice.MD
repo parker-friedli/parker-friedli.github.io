@@ -99,10 +99,9 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 |----------------|----------------|
 | Row 2, Cell 2  | Row 2, Cell 3  |
 
-![](/assets/img/section_view.jpeg)
-![](/assets/img/Outlets_calibrated.jpeg)
-<img src="/assets/img/section_view.jpeg" width="800px" />
-<img src="/assets/img/Outlets_calibrated.jpeg" width="800px" />
+
+<img src="/assets/img/section_view.png" width="800px" />
+<img src="/assets/img/Outlets_calibrated.png" width="800px" />
 
 - **Flow Rate Uniformity and Streamline Stability**
 - **Future Improvements Based on Testing**
