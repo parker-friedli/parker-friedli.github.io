@@ -74,12 +74,16 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 - **Plasma Surface Activation:** Both the PDMS and glass surfaces were treated using a plasma cleaner (e.g., Harrick Plasma Cleaner) to induce surface activation, generating silanol groups for enhanced adhesion.
 - **Bonding Process:** The PDMS layer was aligned with the glass slide and pressed together, forming a strong, bond due to the plasma activation.
 
+  | Final SLS Mold with parylene coating| Final PDMS device|
+|---------|---------|
+| ![](/assets/img/final_mold.jpg) | ![](/assets/img/final_pdms.jpg) |
+
 ## Discussion of Key Elements of uFluidic Device
-- **Purpose of Parylene Coating:**
+**Purpose of Parylene Coating:**
   The use of parylene coating on resin-printed molds is essential for compatibility, chemical resistance, and surface properties of the final microfluidic   devices. One of the primary challenges in using SLA 3D-printed molds for soft lithography is that most  resins inhibit PDMS curing, preventing accurate   replication of microfluidic features. Research has shown that SLA resins contain phosphine oxide-based photo-initiators, which leach out and interfere    with the platinum-based PDMS catalyst, effectively poisoning the curing process [^3].  Parylene coating provides a solution by forming a protective   barrier on the mold surface, preventing direct contact between the PDMS and any residual inhibitors. Additionally, the coating ensures easy demolding of PDMS, preserving the integrity of the flow channels and microstructures while maintaining consistent and reproducible device fabrication. 
   ![](/assets/img/parlyene_coating.png)
 
-- **Geometry for Sorting**
+**Geometry for Sorting**
 ![](/assets/img/blank_mold.png)
     $$ 
     y=(w_P - D_P/2)\frac{w_B}{w_P}
@@ -100,11 +104,11 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 <img src="/assets/img/section_view.png" width="800px" />
 
 
-- **Flow Rate Uniformity and Streamline Stability**
+**Flow Rate Uniformity and Streamline Stability**
 
 <img src="/assets/img/Outlets_calibrated.png" width="800px" />
 
-- **Future Improvements Based on Testing**
+**Future Improvements Based on Testing**
 
 
 
