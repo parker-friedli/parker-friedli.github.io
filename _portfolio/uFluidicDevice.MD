@@ -80,7 +80,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   ![](/assets/img/parlyene_coating.png)
 
 - **Geometry for Sorting**
-
+![](/assets/img/blank_mold.png)
     $$ 
     y=(w_P - D_P/2)\frac{w_B}{w_P}
     $$
