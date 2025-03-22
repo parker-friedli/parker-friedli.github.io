@@ -18,7 +18,7 @@ gallery:
 
 
 ## Introduction to uFluidic Devices
-Microfluidic devices are systems that use small amounts of fluids which manipulate through channels ranging from tens to hundreds of micrometers. These channels function as small pipes that control flow, allowing for experimentation and analysis which extreme precision. These devices have allowed various fields, including biology, chemistry, and medicine, through the precise flow, rapid analysis, and minimizing reagent consumption; in essence functioning as a small *Lab on a chip*. [1]
+Microfluidic devices are systems that use small amounts of fluids which manipulate through channels ranging from tens to hundreds of micrometers. These channels function as small pipes that control flow, allowing for experimentation and analysis which extreme precision. These devices have allowed various fields, including biology, chemistry, and medicine, through the precise flow, rapid analysis, and minimizing reagent consumption; in essence functioning as a small *Lab on a chip* [^1].
 
 uFluidic devices can be designed to serve various functions including…
 
@@ -38,7 +38,7 @@ The effectiveness of PFF is influenced by several factors:
 
 - **Microchannel Geometry:** The design of the microchannel, particularly the width of the pinched segment and the angle at the transition between the pinched and broadened segments, plays a significant role in the separation efficiency. A narrower pinched segment typically results in improved separation.
 
-| Principles of PPF [4]| Example Flow Profile [4] |
+| Principles of PPF [^4]| Example Flow Profile [^4] |
 |---------|---------|
 | ![](/assets/img/PFF.png) | ![](/assets/img/streamlines.png) |
 
@@ -46,7 +46,7 @@ The effectiveness of PFF is influenced by several factors:
 
 **Application:**
 
-A specific application that requires the sorting of small particles is the isolation and purification of **circulating tumor cells (CTCs)** from blood samples for cancer diagnostics. CTCs are rare and often present in very low concentrations in the bloodstream, but their presence can provide valuable insights into cancer progression, metastasis, and treatment response. Pinch Flow Fractionation (PFF) can be used to separate CTCs from other blood components like red blood cells and white blood cells based on size. This separation enables further analysis of the CTCs, which could lead to early cancer detection, monitoring of treatment effectiveness, and personalized medicine approaches. [P Sajeesh, Ashis Jumar Sen, 2013]
+A specific application that requires the sorting of small particles is the isolation and purification of **circulating tumor cells (CTCs)** from blood samples for cancer diagnostics. CTCs are rare and often present in very low concentrations in the bloodstream, but their presence can provide valuable insights into cancer progression, metastasis, and treatment response. Pinch Flow Fractionation (PFF) can be used to separate CTCs from other blood components like red blood cells and white blood cells based on size. This separation enables further analysis of the CTCs, which could lead to early cancer detection, monitoring of treatment effectiveness, and personalized medicine approaches [^2].
 
 ## Procedure for Fabrication of Final Device from 3D-Printed Mold
 The fabrication of the final (PDMS) device involved multiple steps to ensure functionality. The following describes the process in detail.
@@ -76,7 +76,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 ## Discussion of Key Elements of uFluidic Device
 - **Purpose of Parylene Coating:**
-  The use of parylene coating on resin-printed molds is essential for compatibility, chemical resistance, and surface properties of the final microfluidic   devices. One of the primary challenges in using SLA 3D-printed molds for soft lithography is that most  resins inhibit PDMS curing, preventing accurate   replication of microfluidic features. Research has shown that SLA resins contain phosphine oxide-based photo-initiators, which leach out and interfere    with the platinum-based PDMS catalyst, effectively poisoning the curing process [3].  Parylene coating provides a solution by forming a protective   barrier on the mold surface, preventing direct contact between the PDMS and any residual inhibitors. Additionally, the coating ensures easy demolding of PDMS, preserving the integrity of the flow channels and microstructures while maintaining consistent and reproducible device fabrication. 
+  The use of parylene coating on resin-printed molds is essential for compatibility, chemical resistance, and surface properties of the final microfluidic   devices. One of the primary challenges in using SLA 3D-printed molds for soft lithography is that most  resins inhibit PDMS curing, preventing accurate   replication of microfluidic features. Research has shown that SLA resins contain phosphine oxide-based photo-initiators, which leach out and interfere    with the platinum-based PDMS catalyst, effectively poisoning the curing process [^3].  Parylene coating provides a solution by forming a protective   barrier on the mold surface, preventing direct contact between the PDMS and any residual inhibitors. Additionally, the coating ensures easy demolding of PDMS, preserving the integrity of the flow channels and microstructures while maintaining consistent and reproducible device fabrication. 
   ![](/assets/img/parlyene_coating.png)
 
 - **Geometry for Sorting**
@@ -112,9 +112,12 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 
 
-# CAD Model
+## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a43ec6ba2c8022d8a4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-
-![](/assets/img/syringe_real.png)
+## References
+[^1]: O'grady, B. J., Geuy, M. D., Kim, H., Balotin, K. M., Allchin, E. R., Florian, D. C., Bute, N. N., Scott, T. E., Lowen, G. B., Fricker, C. M., Fitzgerald, M. L., Guelcher, S. A., Wikswo, J. P., & Bellan, L. M. E. S. (2021). Lab on a Chip . https://doi.org/10.1039/d1lc00744k
+[^2]: Sajeesh, P., Kumar, A., & Sen, Á. A. K. (2013). Particle separation and sorting in microfluidic devices: a review. https://doi.org/10.1007/s10404-013-1291-9
+[^3]: Venzac, B., Deng, S., Mahmoud, Z., Lenferink, A., Costa, F. A., Bray, C., Otto, C., & Rolando, S. (2021). PDMS curing inhibition on 3D-printed molds: Why? Also, how to avoid it? https://doi.org/10.1021/acs.analchem.0c04944
+[^4]: Yamada, M., Nakashima, M., & Seki, M. (2004). Pinched flow fractionation: Continuous size separation of particles utilizing a laminar flow profile in a pinched microchannel. https://doi.org/10.1021/ac049863r
 {% include gallery caption="Syringe Pump Project Gallery" %}
