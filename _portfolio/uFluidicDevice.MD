@@ -95,6 +95,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
       $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$
       $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
+|                |                |                |
 |----------------|----------------|----------------|
 |![](/assets/img/blank_mold.png) | ![](/assets/img/section_view.png)  | ![](/assets/img/Outlets_calibrated.png)  |
 | Row 2, Cell 1  | Row 2, Cell 2  | Row 2, Cell 3  |
