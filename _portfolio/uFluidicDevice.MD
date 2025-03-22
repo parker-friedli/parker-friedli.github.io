@@ -3,7 +3,6 @@
 title: "Microfluidic Pinch Flow Fractination Device"
 excerpt: "Utilizing SLA printing for the creation of precise microfluidic device."
 
-<img src="/assets/img/IMG_5117.jpeg" width="800px" />
 header:
   image: /assets/img/IMG_5117.jpeg
   teaser: /assets/img/IMG_5117.jpeg
@@ -15,8 +14,8 @@ gallery:
   - image_path: assets/img/drawing4.png
   - image_path: assets/img/drawing5.png
 
-
 ---
+<img src="/assets/img/IMG_5117.jpeg" width="80%" />
 
 ## Introduction to uFluidic Devices
 Microfluidic devices are systems that use small amounts of fluids which manipulate through channels ranging from tens to hundreds of micrometers. These channels function as small pipes that control flow, allowing for experimentation and analysis which extreme precision. These devices have allowed various fields, including biology, chemistry, and medicine, through the precise flow, rapid analysis, and minimizing reagent consumption; in essence functioning as a small *Lab on a chip*. [1]
