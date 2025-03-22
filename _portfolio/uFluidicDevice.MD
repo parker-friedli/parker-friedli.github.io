@@ -2,6 +2,8 @@
 
 title: "Microfluidic Pinch Flow Fractination Device"
 excerpt: "Utilizing SLA printing for the creation of precise microfluidic device."
+
+<img src="/assets/img/IMG_5117.jpeg" width="800px" />
 header:
   image: /assets/img/IMG_5117.jpeg
   teaser: /assets/img/IMG_5117.jpeg
