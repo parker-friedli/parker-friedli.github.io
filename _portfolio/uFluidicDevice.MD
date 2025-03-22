@@ -53,6 +53,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 **1. CAD Model Design**
   - **Model Development:** The 3D model of the microfluidic device was designed using Fusion 360, incorporating all necessary features such as the inlets, broad section, outlets, and given design specifications. *The design specifics will be discused below.*
+  ![](/assets/img/blank_mold.png)
 
 **2. 3D Printing and Mold Post-Processing**
   - **Mold Fabrication:** The mold was printed using a Formlabs 3+ SLA printer with Black Resin to achieve high feature fidelity and smooth surfaces. 
@@ -84,17 +85,16 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   ![](/assets/img/parlyene_coating.png)
 
 **Geometry for Sorting:**
-![](/assets/img/blank_mold.png)
     
     $$
     y=(w_P - D_P/2)\frac{w_B}{w_P}
     $$
 
-    where...<br>
-    $$w_B=19 \text{ mm}$$<br>
-    $$w_P=0.75 \text{ m}$$<br>
-    $$D_{\text{small}}=0.150 \text{ m}$$<br>
-    $$D_{\text{large}}=0.500 \text{ m}$$<br>
+    where...
+    $$w_B=19 \text{ mm}$$
+    $$w_P=0.75 \text{ m}$$
+    $$D_{\text{small}}=0.150 \text{ m}$$
+    $$D_{\text{large}}=0.500 \text{ m}$$
     
     then...
       $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$
