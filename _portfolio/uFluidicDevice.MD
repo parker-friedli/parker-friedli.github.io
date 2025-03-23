@@ -115,12 +115,41 @@ The figure below illustrates a schematic representation of the broad section, de
 **Flow Rate Uniformity and Streamline Stability:**
 Maintaining equal flow rates at both outlets was crucial to ensure the accuracy of the particle separation. Any imbalance in outlet flow rates could disrupt the streamline positions, causing particles to deviate from their expected trajectories. Unequal flow distribution could also introduce undesired recirculation zones or velocity gradients, leading to streamline instability and potential particle mixing. For example if streamlines deviate the larger particle could be pulled upward into the smaller particle outlet. To prevent these issues and preserve the intended separation mechanism, the following design modifications were implemented.  
 1. Balancing Hydraulic Resistance Through Outlet Length-to-Width Ratio
-  Since the two outlet channels had different widths, their lengths were adjusted to balance hydraulic resistance. Without this adjustment, the wider channel would have lower resistance, causing a disproportionate flow split. By increasing the length-to-width ratio of the wider outlet, additional resistance was introduced, ensuring that both outlets received an equal share of the total flow. This ratio was determined using Hagen-Poiseuille flow approximations, accounting for both channel width and length to equalize resistance across the two outlets. The equation describes laminar flow through a long, straight, and rigid microchannel and is given by:   
-  $$Q=\frac{\Delta P}{R}$$  
-  where:
-  * $$Q$$ is volumetric flow rate
-  * $$\Delta P$$ is pressure drop accross channel
-  * $$R$$ is resistance of channel
+  Since the two outlet channels had different widths, their lengths were adjusted to balance hydraulic resistance. Without this adjustment, the wider channel would have lower resistance, causing a disproportionate flow split. By increasing the length-to-width ratio of the wider outlet, additional resistance was introduced, ensuring that both outlets received an equal share of the total flow. This ratio was determined using Hagen-Poiseuille flow approximations, accounting for both channel width and length to equalize resistance across the two outlets. The equation describes laminar flow through a long, straight, and rigid microchannel and is given by:  
+
+  $$
+  R = \frac{12\mu L}{w h^3} \left( 1 - 0.63 \frac{h}{w} \right)
+  $$
+  
+  where:  
+  - \( R \) is the hydraulic resistance,  
+  - \( \mu \) is the dynamic viscosity of the fluid,  
+  - \( L \) is the channel length,  
+  - \( w \) is the channel width,  
+  - \( h \) is the channel height.  
+  
+  Since the two outlet channels had different widths (\( w_1 \) and \( w_2 \)), their lengths (\( L_1 \) and \( L_2 \)) were adjusted to balance resistance, ensuring equal volumetric flow rates. The resistance ratio was set equal to the desired flow rate ratio:
+  
+  $$
+  \frac{R_1}{R_2} = \frac{Q_2}{Q_1} = 1
+  $$
+  
+  Substituting the Hagen-Poiseuille equation:
+  
+  $$
+  \frac{L_1}{w_1 h^3} \left( 1 - 0.63 \frac{h}{w_1} \right) = \frac{L_2}{w_2 h^3} \left( 1 - 0.63 \frac{h}{w_2} \right)
+  $$
+  
+  Since both outlets had the same height \( h \), the equation simplifies to:
+  
+  $$
+  \frac{L_1}{w_1} \left( 1 - 0.63 \frac{h}{w_1} \right) = \frac{L_2}{w_2} \left( 1 - 0.63 \frac{h}{w_2} \right)
+  $$
+  
+  By solving for \( L_1 \) and \( L_2 \), the lengths were adjusted to ensure equal resistance and maintain uniform flow distribution.
+
+### **Impact on Flow Stability**  
+By balancing resistance, the design prevented uneven flow splitting, which could otherwise cause deviations in streamline trajectories. Ensuring equal outlet flow rates reduced disturbances in the pinch flow fractionation process, improving separation accuracy and preventing eddy formation at the outlet.
 
   
   
