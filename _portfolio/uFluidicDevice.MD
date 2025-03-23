@@ -106,6 +106,24 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$  
   $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
+<p style="float: right; width: 60%;">
+ $$y=(w_P - D_P/2)\frac{w_B}{w_P}$$  
+
+  where...   
+  $$w_B=19 \text{ mm}$$   
+  $$w_P=0.75 \text{ m}$$  
+  $$D_{\text{small}}=0.150 \text{ m}$$  
+  $$D_{\text{large}}=0.500 \text{ m}$$  
+    
+  then...  
+  $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$  
+  $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
+
+</p>
+<img src="/assets/img/section_view.jpg" width="300" height="200" style="float: right;">
+
+
+
 <p align="center">
   <img width="550" src="/assets/img/section_view.png">
 </p>
