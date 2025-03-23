@@ -82,20 +82,22 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 ## Discussion of Key Elements of uFluidic Device
 **Purpose of Parylene Coating:**
   The use of parylene coating on resin-printed molds is essential for compatibility, chemical resistance, and surface properties of the final microfluidic   devices. One of the primary challenges in using SLA 3D-printed molds for soft lithography is that most  resins inhibit PDMS curing, preventing accurate   replication of microfluidic features. Research has shown that SLA resins contain phosphine oxide-based photo-initiators, which leach out and interfere    with the platinum-based PDMS catalyst, effectively poisoning the curing process [^3].  Parylene coating provides a solution by forming a protective   barrier on the mold surface, preventing direct contact between the PDMS and any residual inhibitors. Additionally, the coating ensures easy demolding of PDMS, preserving the integrity of the flow channels and microstructures while maintaining consistent and reproducible device fabrication. 
+  
+<div align="center">
   ![](/assets/img/parlyene_coating.png)
+</div>
 
 **Geometry for Sorting:**
-  $$
-  y=(w_P - D_P/2)\frac{w_B}{w_P}
-  $$
-  where...
-  $w_B=19 \text{ mm}$
-  $$w_P=0.75 \text{ m}$$
-  $$D_{\text{small}}=0.150 \text{ m}$$
-  $$D_{\text{large}}=0.500 \text{ m}$$
+  $$y=(w_P - D_P/2)\frac{w_B}{w_P}$$  
+
+  where...  
+  $w_B=19 \text{ mm}$  
+  $$w_P=0.75 \text{ m}$$  
+  $$D_{\text{small}}=0.150 \text{ m}$$  
+  $$D_{\text{large}}=0.500 \text{ m}$$  
     
   then...
-  $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$
+  $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$  
   $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
 <img src="/assets/img/section_view.png" width="800px" />
