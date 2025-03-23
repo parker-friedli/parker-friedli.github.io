@@ -52,7 +52,7 @@ A specific application that requires the sorting of small particles is the isola
 The fabrication of the final (PDMS) device involved multiple steps to ensure functionality. The following describes the process in detail.
 
 **1. CAD Model Design**
-  - **Model Development:** The 3D model of the microfluidic device was designed using Fusion 360, incorporating all necessary features such as the inlets, broad section, outlets, and given design specifications. *The design specifics will be discused below.*
+  - **Model Development:** The 3D model of the microfluidic device was designed using Fusion 360, incorporating all necessary features such as the inlets, broad section, outlets, and given design specifications (shown in figure below).
   
 <p align="center">
   <img width="550" src="/assets/img/blank_mold.png">
@@ -92,9 +92,9 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 
 **Geometry for Sorting:**  
-  The location of the outlet ports—the height at which each particles is predicted to be—is a function of the widths of the broad section $$w_B$$ and narrow sections $$w_P$$ as well as the diameter of both sized particles ( $$D_{\text{small}},D_{\text{large}}$$ ). The equation and spefici height calculations for the device are listed below [^4]
+ The location of the outlet ports—determined by the height at which each particle is expected to exit—is a function of the widths of both the broad section ($$w_B$$) and pinched section ($$w_P$$), as well as the diameters of the small and large particles ( $$D_{\text{small}},D_{\text{large}}$$ ). he equation governing the height at which a particle exits is given by: 
 
-  $$y=(w_P - D_P/2)\frac{w_B}{w_P}$$  
+  $$y=(w_P - D_P/2)\frac{w_B}{w_P}$$[^4]    
 
   where...   
   $$w_B=19 \text{ mm}$$   
@@ -102,11 +102,16 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   $$D_{\text{small}}=0.150 \text{ m}$$  
   $$D_{\text{large}}=0.500 \text{ m}$$  
     
-  then...  
+  Using these values, the predicted exit heights for small and large particles are calculated as follows...   
   $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$  
   $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
-After calculating the estimated heights for the both particle sizes, the widths of the outlet ports were maximed by separating them at the midpoint between the heights such that there was the most space to allow for any deviating particles to still go in the correct channel. The figure below is a sketch of the broad section showing $$y_{\text{small}}$$ and $$y_{\text{large}}$$ and the corresponding outlet channels. Note that the figure doesn't show the mirrored outlet channels for the buffer solution.
+These calculated heights provided a basis for determining the optimal placement of the outlet channels. To maximize the efficiency of particle separation, the widths of the outlet ports were optimized by positioning them at the midpoint between the two predicted heights. This ensures that any particles deviating slightly from their expected streamline still enter the correct channel.
+
+In addition, the outlet design was adjusted to provide sufficient clearance around each particle’s expected trajectory, allowing for minor fluctuations in flow behavior while maintaining proper sorting. The buffer solution outlets, which are mirrored on the opposite side, were positioned to ensure that misdirected particles are less likely to cross over into unintended channels.
+
+The figure below illustrates a schematic representation of the broad section, depicting the locations of $$y_{\text{small}}$$ and $$y_{\text{large}}$$ along with the corresponding outlet channels. Note that the buffer solution outlets are not shown in this figure for clarity.
+
 
 
 <p align="center">
