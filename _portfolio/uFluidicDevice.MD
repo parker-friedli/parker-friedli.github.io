@@ -88,12 +88,13 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 </div>
 
 **Geometry for Sorting:**  
+  The location of the outlet ports—the height at which each particles is predicted to be—is a function of the widths of the broad section and narrow sections as well as the diameter of both sized particles. The equation and spefici height calculations for the device are listed below [^4]: 
 
   $$y=(w_P - D_P/2)\frac{w_B}{w_P}$$  
 
   where...  
-  $$w_B=19 \text{ mm}$$  
-  $$w_P=0.75 \text{ m}$  $
+  $$w_B=19 \text{ mm}$$   
+  $$w_P=0.75 \text{ m}$$  
   $$D_{\text{small}}=0.150 \text{ m}$$  
   $$D_{\text{large}}=0.500 \text{ m}$$  
     
