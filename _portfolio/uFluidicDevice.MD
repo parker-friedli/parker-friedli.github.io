@@ -87,14 +87,13 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   ![](/assets/img/parlyene_coating.png)
 </div>
 
-**Geometry for Sorting:**
-  $$
-  y=(w_P - D_P/2)\frac{w_B}{w_P}
-  $$  
+**Geometry for Sorting:**  
+
+  $$y=(w_P - D_P/2)\frac{w_B}{w_P}$$  
 
   where...  
-  $w_B=19 \text{ mm}$  
-  $w_P=0.75 \text{ m}$  
+  $$w_B=19 \text{ mm}$$  
+  $$w_P=0.75 \text{ m}$  $
   $$D_{\text{small}}=0.150 \text{ m}$$  
   $$D_{\text{large}}=0.500 \text{ m}$$  
     
