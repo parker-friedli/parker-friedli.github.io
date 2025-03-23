@@ -106,7 +106,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$  
   $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
-After calculating the estimated heights for the both particle sizes, the widths of the outlet ports were maximed by separating them at the midpoint between the heights such that there was the most space to allow for any deviating particles to still go in the correct channel. The figure below is a sketch of the broad section showing $y_{\text{small}}$ and $y_{\text{large}}$ and the corresponding outlet channels. Note that the 
+After calculating the estimated heights for the both particle sizes, the widths of the outlet ports were maximed by separating them at the midpoint between the heights such that there was the most space to allow for any deviating particles to still go in the correct channel. The figure below is a sketch of the broad section showing $y_{\text{small}}$ and $y_{\text{large}}$ and the corresponding outlet channels. Note that the figure doesn't show the mirrored outlet channels for the buffer solution.
 
 
 <p align="center">
