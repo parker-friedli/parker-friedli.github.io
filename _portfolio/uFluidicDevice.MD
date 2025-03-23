@@ -38,9 +38,9 @@ The effectiveness of PFF is influenced by several factors:
 
 - **Microchannel Geometry:** The design of the microchannel, particularly the width of the pinched segment and the angle at the transition between the pinched and broadened segments, plays a significant role in the separation efficiency. A narrower pinched segment typically results in improved separation.
 
-| Principles of PPF [^4]| Example Flow Profile [^4] |
-|---------|---------|
-| ![](/assets/img/PFF.png) | ![](/assets/img/streamlines.png) |
+| Principles of PPF [^4]| Example Flow Profile [^4]|
+|--------------------------|---------------------------------|
+| ![](/assets/img/PFF.png) | ![](/assets/img/streamlines.png)|
 
 - **Flow Rates:** The ratio of flow rates from the inlets is critical, as it determines the width of the particle-containing liquid in the pinched segment. This ratio influences the alignment of particles to the sidewall, thereby affecting the overall separation efficiency.
 
@@ -75,8 +75,8 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 - **Plasma Surface Activation:** Both the PDMS and glass surfaces were treated using a plasma cleaner (e.g., Harrick Plasma Cleaner) to induce surface activation, generating silanol groups for enhanced adhesion.
 - **Bonding Process:** The PDMS layer was aligned with the glass slide and pressed together, forming a strong, bond due to the plasma activation.
 
-  | Final SLS Mold with parylene coating| Final PDMS device|
-|---------|---------|
+| Final SLS Mold with parylene coating|     Final PDMS device      |
+|---------------------------------|--------------------------------|
 | ![](/assets/img/final_mold.jpg) | ![](/assets/img/final_pdms.jpg) |
 
 ## Discussion of Key Elements of uFluidic Device
@@ -92,13 +92,13 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
   $$y=(w_P - D_P/2)\frac{w_B}{w_P}$$  
 
-  where...  
+  where...   
   $$w_B=19 \text{ mm}$$   
   $$w_P=0.75 \text{ m}$$  
   $$D_{\text{small}}=0.150 \text{ m}$$  
   $$D_{\text{large}}=0.500 \text{ m}$$  
     
-  then...
+  then...  
   $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$  
   $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
