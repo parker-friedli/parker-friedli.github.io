@@ -103,7 +103,9 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$  
   $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
-<img src="/assets/img/section_view.png" width="500px" />
+<p align="center">
+  <img width="550" height="300" src="/assets/img/section_view.png">
+</p>
 
 
 **Flow Rate Uniformity and Streamline Stability:**
