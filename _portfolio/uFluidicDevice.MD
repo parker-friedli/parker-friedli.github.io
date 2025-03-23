@@ -119,36 +119,36 @@ Maintaining equal flow rates at both outlets was crucial to ensure the accuracy 
 **1. Balancing Hydraulic Resistance Through Outlet Length-to-Width Ratio**  
   Since the two outlet channels had different widths, their lengths were adjusted to balance hydraulic resistance. Without this adjustment, the wider channel would have lower resistance, causing a disproportionate flow split. By increasing the length-to-width ratio of the wider outlet, additional resistance was introduced, ensuring that both outlets received an equal share of the total flow. This ratio was determined using Hagen-Poiseuille flow approximations, accounting for both channel width and length to equalize resistance across the two outlets. The equation describes laminar flow through a long, straight, and rigid microchannel and is given by:  
 
-    $$
-    R = \frac{12\mu L}{w h^3} \left( 1 - 0.63 \frac{h}{w} \right)
-    $$
-    
-    where:  
-    - $$R$$ is the hydraulic resistance,  
-    - $$\mu$$ is the dynamic viscosity of the fluid,  
-    - $$L$$ is the channel length,  
-    - $$w$$ is the channel width,  
-    - $$h$$ is the channel height.    
-    
-    Since the two outlet channels had different widths ($$w_1$$) and ($$w_2$$), their lengths ($$L_1$$) and ($$L_2$$) were adjusted to balance resistance, ensuring equal volumetric flow rates. The resistance ratio was set equal to the desired flow rate ratio:
-    
-    $$
-    \frac{R_1}{R_2} = \frac{Q_2}{Q_1} = 1
-    $$
-    
-    Substituting the Hagen-Poiseuille equation:
-    
-    $$
-    \frac{L_1}{w_1 h^3} \left( 1 - 0.63 \frac{h}{w_1} \right) = \frac{L_2}{w_2 h^3} \left( 1 - 0.63 \frac{h}{w_2} \right)
-    $$
-    
-    Since both outlets had the same height ($$h$$), the equation simplifies to:
-    
-    $$
-    \frac{L_1}{w_1} \left( 1 - 0.63 \frac{h}{w_1} \right) = \frac{L_2}{w_2} \left( 1 - 0.63 \frac{h}{w_2} \right)
-    $$
-    
-    By solving for ($$L_1$$) and ($$L_2$$), the lengths were adjusted to ensure equal resistance and maintain uniform flow distribution.
+  $$
+  R = \frac{12\mu L}{w h^3} \left( 1 - 0.63 \frac{h}{w} \right)
+  $$
+  
+  where:  
+  - $$R$$ is the hydraulic resistance,  
+  - $$\mu$$ is the dynamic viscosity of the fluid,  
+  - $$L$$ is the channel length,  
+  - $$w$$ is the channel width,  
+  - $$h$$ is the channel height.    
+  
+  Since the two outlet channels had different widths ($$w_1$$) and ($$w_2$$), their lengths ($$L_1$$) and ($$L_2$$) were adjusted to balance resistance, ensuring equal volumetric flow rates. The resistance ratio was set equal to the desired flow rate ratio:
+  
+  $$
+  \frac{R_1}{R_2} = \frac{Q_2}{Q_1} = 1
+  $$
+  
+  Substituting the Hagen-Poiseuille equation:
+  
+  $$
+  \frac{L_1}{w_1 h^3} \left( 1 - 0.63 \frac{h}{w_1} \right) = \frac{L_2}{w_2 h^3} \left( 1 - 0.63 \frac{h}{w_2} \right)
+  $$
+  
+  Since both outlets had the same height ($$h$$), the equation simplifies to:
+  
+  $$
+  \frac{L_1}{w_1} \left( 1 - 0.63 \frac{h}{w_1} \right) = \frac{L_2}{w_2} \left( 1 - 0.63 \frac{h}{w_2} \right)
+  $$
+  
+  By solving for ($$L_1$$) and ($$L_2$$), the lengths were adjusted to ensure equal resistance and maintain uniform flow distribution.
 
 <p align="center">
   <img width="600" src="/assets/img/Outlets_calibrated.png">
@@ -164,7 +164,7 @@ Maintaining equal flow rates at both outlets was crucial to ensure the accuracy 
 
 
 ### Future Improvements Based on Testing:
-**Addressing Back Pressure and Unequal Flow Distribution**  
+- Addressing Back Pressure and Unequal Flow Distribution  
   A major challenge seen in testing was the issue of back pressure, which occured when there were slight variations in the tubing (i.e. tubing length, and vertical positioning) used to direct the fluid to the final collection vessels, and lead to a recombination of separated streams. In future designs, incorporating a pressure regulation system—such as one of *Fluigent's Pressure Controller Systems*—could help equalize back pressure across the outlets. Additionally, using standardized tubing connectors with consistent internal diameters and minimizing length differences would reduce the risk of pressure imbalances, ensuring that the separated particle streams remain stable and undisturbed.
 
 This problem also can be minimized by future testing of inlet flow rates to avoid to the formation of eddys and turbulance.
