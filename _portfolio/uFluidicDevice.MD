@@ -53,7 +53,10 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 
 **1. CAD Model Design**
   - **Model Development:** The 3D model of the microfluidic device was designed using Fusion 360, incorporating all necessary features such as the inlets, broad section, outlets, and given design specifications. *The design specifics will be discused below.*
-  ![](/assets/img/blank_mold.png)
+  
+<p align="center">
+  <img width="550" src="/assets/img/blank_mold.png">
+</p>
 
 **2. 3D Printing and Mold Post-Processing**
   - **Mold Fabrication:** The mold was printed using a Formlabs 3+ SLA printer with Black Resin to achieve high feature fidelity and smooth surfaces. 
@@ -104,7 +107,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
 <p align="center">
-  <img width="550" height="300" src="/assets/img/section_view.png">
+  <img width="550" src="/assets/img/section_view.png">
 </p>
 
 
