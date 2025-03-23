@@ -3,8 +3,8 @@
 title: "#D Printed Multi-material Pliers"
 excerpt: "Utilizing pring-in-place principles to create usable 3D printed pliers"
 header:
-  image: /assets/img/multi-material
-  teaser: /assets/img/multi_material
+  image: /assets/img/multi-material.png
+  teaser: /assets/img/multi_material.png
 gallery:
   - image_path: assets/img/wiring.png
   - image_path: assets/img/drawing1.png
@@ -17,7 +17,7 @@ gallery:
 ---
 ---   
 * Description of the project with a blurb about print-in-place parts. 
-* Perform external research to determine other applications print-in-place has been used. What combination of materials work well for print-in-place?
+* Perform external research to determine other applications print-in-place has been used. What combination of materials work well for print-in-place?  
 ---
 
 
