@@ -120,7 +120,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
   $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
 </p>
-<img src="/assets/img/section_view.jpg" width="300" height="200" style="float: right;">
+<img src="/assets/img/section_view.png" width="300" height="200" style="float: right;">
 
 
 
