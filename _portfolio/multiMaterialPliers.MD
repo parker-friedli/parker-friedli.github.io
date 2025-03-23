@@ -16,21 +16,21 @@ gallery:
 
 ---
 
-# 
+## 
 * Description of the project with a blurb about print-in-place parts. 
 * Perform external research to determine other applications print-in-place has been used. What combination of materials work well for print-in-place?
 #
 
 
-# CAD Model
+## CAD Model
 
-# Design Description
+## Design Description
 * About the design and iterative process (e.g., how was the spring component created and how is it retained in the model, 
 * materials used)
 * Relevant specifications of the pliers (jaw length, jaw capacity)
 
-# Print Settings
+## Print Settings
 
-# Image Gallery and GIF
+## Image Gallery and GIF
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
