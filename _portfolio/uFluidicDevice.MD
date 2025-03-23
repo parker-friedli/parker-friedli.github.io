@@ -94,7 +94,7 @@ The location of the outlet ports—determined by the height at which each partic
     $$w_B=19 \text{ mm}$$   
     $$w_P=0.75 \text{ m}$$  
     $$D_{\text{small}}=0.150 \text{ m}$$  
-    $$D_{\text{large}}=0.500 \text{ m}$$  
+    $$D_{\text{large}}=0.500 \text{ m}$$   
       
   Using these values, the predicted exit heights for small and large particles are calculated as follows...   
     $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$  
@@ -116,7 +116,7 @@ The figure below illustrates a schematic representation of the broad section, de
 ### Flow Rate Uniformity and Streamline Stability:
 Maintaining equal flow rates at both outlets was crucial to ensure the accuracy of the particle separation. Any imbalance in outlet flow rates could disrupt the streamline positions, causing particles to deviate from their expected trajectories. Unequal flow distribution could also introduce undesired recirculation zones or velocity gradients, leading to streamline instability and potential particle mixing. For example if streamlines deviate the larger particle could be pulled upward into the smaller particle outlet. To prevent these issues and preserve the intended separation mechanism, the following design modifications were implemented.    
 
-1. **Balancing Hydraulic Resistance Through Outlet Length-to-Width Ratio**  
+**1. Balancing Hydraulic Resistance Through Outlet Length-to-Width Ratio**  
   Since the two outlet channels had different widths, their lengths were adjusted to balance hydraulic resistance. Without this adjustment, the wider channel would have lower resistance, causing a disproportionate flow split. By increasing the length-to-width ratio of the wider outlet, additional resistance was introduced, ensuring that both outlets received an equal share of the total flow. This ratio was determined using Hagen-Poiseuille flow approximations, accounting for both channel width and length to equalize resistance across the two outlets. The equation describes laminar flow through a long, straight, and rigid microchannel and is given by:  
 
     $$
@@ -128,7 +128,7 @@ Maintaining equal flow rates at both outlets was crucial to ensure the accuracy 
     - $$\mu$$ is the dynamic viscosity of the fluid,  
     - $$L$$ is the channel length,  
     - $$w$$ is the channel width,  
-    - $$h$$ is the channel height.  
+    - $$h$$ is the channel height.    
     
     Since the two outlet channels had different widths ($$w_1$$) and ($$w_2$$), their lengths ($$L_1$$) and ($$L_2$$) were adjusted to balance resistance, ensuring equal volumetric flow rates. The resistance ratio was set equal to the desired flow rate ratio:
     
@@ -154,17 +154,17 @@ Maintaining equal flow rates at both outlets was crucial to ensure the accuracy 
   <img width="600" src="/assets/img/Outlets_calibrated.png">
 </p>
   
-2. **Trapezoidal Channel Geometry for Barb Integration**  
+**2. Trapezoidal Channel Geometry for Barb Integration**  
   A gradual tapering of the channels was used to accommodate barbed fittings at the outlet. The tapering ensured a seamless transition from the broader outlet region to a narrower connection point, preventing any contractions that could cause flow separation or vortex formation since the barb outlet (given as 1 mm diameter was larger than the beggining outlet widths). The taper was used to allow sufficient space for the barbs while maintaining a controlled narrowing to minimize sudden pressure changes.
   
-3. **Adjustment of Inlet Flow Rates to Maintain Constant Velocity**  
+**3. Adjustment of Inlet Flow Rates to Maintain Constant Velocity**  
   To ensure a stable laminar flow profile, the flow rates of the inlets were controlled using two syringe pumps. The device's two inlet streams—one carrying the particle-laden fluid and another containing only buffer solution—needed to be properly balanced these to maintain a consistent velocity across the pinched segment, ensuring that particles aligned predictably along streamlines. The flow rate of the buffer solution inlet was higher relative to the particle-laden inlet, effectively compressing the particle stream into a narrow region. By tuning this ratio, the velocity profile remained uniform while minimizing shear-induced disturbances.
 
 
 
 
 ### Future Improvements Based on Testing:
-** Addressing Back Pressure and Unequal Flow Distribution**  
+**Addressing Back Pressure and Unequal Flow Distribution**  
   A major challenge seen in testing was the issue of back pressure, which occured when there were slight variations in the tubing (i.e. tubing length, and vertical positioning) used to direct the fluid to the final collection vessels, and lead to a recombination of separated streams. In future designs, incorporating a pressure regulation system—such as one of *Fluigent's Pressure Controller Systems*—could help equalize back pressure across the outlets. Additionally, using standardized tubing connectors with consistent internal diameters and minimizing length differences would reduce the risk of pressure imbalances, ensuring that the separated particle streams remain stable and undisturbed.
 
 This problem also can be minimized by future testing of inlet flow rates to avoid to the formation of eddys and turbulance.
