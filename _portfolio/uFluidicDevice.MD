@@ -84,8 +84,7 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 </p>
 
 
-**Geometry for Sorting:**  
- The location of the outlet ports—determined by the height at which each particle is expected to exit—is a function of the widths of both the broad section ($$w_B$$) and pinched section ($$w_P$$), as well as the diameters of the small and large particles ( $$D_{\text{small}},D_{\text{large}}$$ ). he equation governing the height at which a particle exits is given by: 
+**Geometry for Sorting:**The location of the outlet ports—determined by the height at which each particle is expected to exit—is a function of the widths of both the broad section ($$w_B$$) and pinched section ($$w_P$$), as well as the diameters of the small and large particles ( $$D_{\text{small}},D_{\text{large}}$$ ). he equation governing the height at which a particle exits is given by: 
 
   $$y=(w_P - D_P/2)\frac{w_B}{w_P}$$[^4]    
 
@@ -112,8 +111,7 @@ The figure below illustrates a schematic representation of the broad section, de
 </p>
 
 
-**Flow Rate Uniformity and Streamline Stability:**
-Maintaining equal flow rates at both outlets was crucial to ensure the accuracy of the particle separation. Any imbalance in outlet flow rates could disrupt the streamline positions, causing particles to deviate from their expected trajectories. Unequal flow distribution could also introduce undesired recirculation zones or velocity gradients, leading to streamline instability and potential particle mixing. For example if streamlines deviate the larger particle could be pulled upward into the smaller particle outlet. To prevent these issues and preserve the intended separation mechanism, the following design modifications were implemented.  
+**Flow Rate Uniformity and Streamline Stability:** Maintaining equal flow rates at both outlets was crucial to ensure the accuracy of the particle separation. Any imbalance in outlet flow rates could disrupt the streamline positions, causing particles to deviate from their expected trajectories. Unequal flow distribution could also introduce undesired recirculation zones or velocity gradients, leading to streamline instability and potential particle mixing. For example if streamlines deviate the larger particle could be pulled upward into the smaller particle outlet. To prevent these issues and preserve the intended separation mechanism, the following design modifications were implemented.    
 1. Balancing Hydraulic Resistance Through Outlet Length-to-Width Ratio
   Since the two outlet channels had different widths, their lengths were adjusted to balance hydraulic resistance. Without this adjustment, the wider channel would have lower resistance, causing a disproportionate flow split. By increasing the length-to-width ratio of the wider outlet, additional resistance was introduced, ensuring that both outlets received an equal share of the total flow. This ratio was determined using Hagen-Poiseuille flow approximations, accounting for both channel width and length to equalize resistance across the two outlets. The equation describes laminar flow through a long, straight, and rigid microchannel and is given by:  
 
