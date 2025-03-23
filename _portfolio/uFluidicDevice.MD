@@ -76,7 +76,8 @@ The fabrication of the final (PDMS) device involved multiple steps to ensure fun
 | ![](/assets/img/final_mold.jpg) | ![](/assets/img/final_pdms.jpg) |
 
 ## Discussion of Key Elements of uFluidic Device
-**Purpose of Parylene Coating:**  
+
+### Purpose of Parylene Coating:
   The use of parylene coating on resin-printed molds is essential for compatibility, chemical resistance, and surface properties of the final microfluidic   devices. One of the primary challenges in using SLA 3D-printed molds for soft lithography is that most  resins inhibit PDMS curing, preventing accurate   replication of microfluidic features. Research has shown that SLA resins contain phosphine oxide-based photo-initiators, which leach out and interfere    with the platinum-based PDMS catalyst, effectively poisoning the curing process [^3].  Parylene coating provides a solution by forming a protective   barrier on the mold surface, preventing direct contact between the PDMS and any residual inhibitors. Additionally, the coating ensures easy demolding of PDMS, preserving the integrity of the flow channels and microstructures while maintaining consistent and reproducible device fabrication. 
 
 <p align="center">
@@ -90,14 +91,14 @@ The location of the outlet ports—determined by the height at which each partic
   $$y=(w_P - D_P/2)\frac{w_B}{w_P}$$[^4]    
 
   where...   
-  $$w_B=19 \text{ mm}$$   
-  $$w_P=0.75 \text{ m}$$  
-  $$D_{\text{small}}=0.150 \text{ m}$$  
-  $$D_{\text{large}}=0.500 \text{ m}$$  
-    
+    $$w_B=19 \text{ mm}$$   
+    $$w_P=0.75 \text{ m}$$  
+    $$D_{\text{small}}=0.150 \text{ m}$$  
+    $$D_{\text{large}}=0.500 \text{ m}$$  
+      
   Using these values, the predicted exit heights for small and large particles are calculated as follows...   
-  $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$  
-  $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
+    $$y_{\text{small}}=(0.75 \text{ mm}-(0.150 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=17.10\text { mm}$$  
+    $$y_{\text{large}}=(0.75 \text{ mm}-(0.500 \text{ mm})/2)\frac{19\text{ mm}}{0.75 \text{ mm}}=12.667\text { mm}$$
 
 These calculated heights provided a basis for determining the optimal placement of the outlet channels. To maximize the efficiency of particle separation, the widths of the outlet ports were optimized by positioning them at the midpoint between the two predicted heights. This ensures that any particles deviating slightly from their expected streamline still enter the correct channel.
 
@@ -112,7 +113,7 @@ The figure below illustrates a schematic representation of the broad section, de
 </p>
 
 
-### Flow Rate Uniformity and Streamline Stability:** 
+### Flow Rate Uniformity and Streamline Stability:
 Maintaining equal flow rates at both outlets was crucial to ensure the accuracy of the particle separation. Any imbalance in outlet flow rates could disrupt the streamline positions, causing particles to deviate from their expected trajectories. Unequal flow distribution could also introduce undesired recirculation zones or velocity gradients, leading to streamline instability and potential particle mixing. For example if streamlines deviate the larger particle could be pulled upward into the smaller particle outlet. To prevent these issues and preserve the intended separation mechanism, the following design modifications were implemented.    
 
 1. Balancing Hydraulic Resistance Through Outlet Length-to-Width Ratio
@@ -149,6 +150,9 @@ Maintaining equal flow rates at both outlets was crucial to ensure the accuracy 
     
     By solving for ($$L_1$$) and ($$L_2$$), the lengths were adjusted to ensure equal resistance and maintain uniform flow distribution.
 
+<p align="center">
+  <img width="600" src="/assets/img/Outlets_calibrated.png">
+</p>
   
 2. Trapezoidal Channel Geometry for Barb Integration
   A gradual tapering of the channels was used to accommodate barbed fittings at the outlet. The tapering ensured a seamless transition from the broader outlet region to a narrower connection point, preventing any contractions that could cause flow separation or vortex formation since the barb outlet (given as 1 mm diameter was larger than the beggining outlet widths). The taper was used to allow sufficient space for the barbs while maintaining a controlled narrowing to minimize sudden pressure changes.
@@ -157,9 +161,9 @@ Maintaining equal flow rates at both outlets was crucial to ensure the accuracy 
   To ensure a stable laminar flow profile, the flow rates of the inlets were controlled using two syringe pumps. The device's two inlet streams—one carrying the particle-laden fluid and another containing only buffer solution—needed to be properly balanced these to maintain a consistent velocity across the pinched segment, ensuring that particles aligned predictably along streamlines. The flow rate of the buffer solution inlet was higher relative to the particle-laden inlet, effectively compressing the particle stream into a narrow region. By tuning this ratio, the velocity profile remained uniform while minimizing shear-induced disturbances.
 
 
-<img src="/assets/img/Outlets_calibrated.png" width="800px" />
 
-### **Future Improvements Based on Testing:**
+
+### Future Improvements Based on Testing:
 * 
 * 
 * 
