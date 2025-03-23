@@ -14,7 +14,7 @@ feature_row:
     alt: "Syringe Pump"
     title: "Custom Fabricated Syringe Pump"
     #excerpt: ""
-  - image_path: assets/img/parylene_coating.png
+  - image_path: /assets/img/parlyene_coating.png
     alt: "Microfluidic Device"
     title: "Pinch Flow Fractination Device using SLA Printing"
     excerpt: ""
