@@ -126,7 +126,6 @@ After calculating the estimated heights for the both particle sizes, the widths 
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a43ec6ba2c8022d8a4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Syringe Pump Project Gallery" %}
 
 ## References
 [^1]: O'grady, B. J., Geuy, M. D., Kim, H., Balotin, K. M., Allchin, E. R., Florian, D. C., Bute, N. N., Scott, T. E., Lowen, G. B., Fricker, C. M., Fitzgerald, M. L., Guelcher, S. A., Wikswo, J. P., & Bellan, L. M. E. S. (2021). Lab on a Chip . https://doi.org/10.1039/d1lc00744k
