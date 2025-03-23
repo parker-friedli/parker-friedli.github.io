@@ -15,11 +15,10 @@ gallery:
 
 
 ---
-
-## 
+---   
 * Description of the project with a blurb about print-in-place parts. 
 * Perform external research to determine other applications print-in-place has been used. What combination of materials work well for print-in-place?
-## 
+---
 
 
 ## CAD Model
