@@ -1,10 +1,10 @@
 ---
 
-title: "Multi-material Pliers"
+title: "#D Printed Multi-material Pliers"
 excerpt: "Utilizing pring-in-place principles to create usable 3D printed pliers"
 header:
-  image: /assets/img/render.jpg
-  teaser: /assets/img/syringe_real.png
+  image: /assets/img/multi-material
+  teaser: /assets/img/multi_material
 gallery:
   - image_path: assets/img/wiring.png
   - image_path: assets/img/drawing1.png
