@@ -164,10 +164,10 @@ Maintaining equal flow rates at both outlets was crucial to ensure the accuracy 
 
 
 ### Future Improvements Based on Testing:
-* 
-* 
-* 
+** Addressing Back Pressure and Unequal Flow Distribution**  
+  A major challenge seen in testing was the issue of back pressure, which occured when there were slight variations in the tubing (i.e. tubing length, and vertical positioning) used to direct the fluid to the final collection vessels, and lead to a recombination of separated streams. In future designs, incorporating a pressure regulation system—such as one of *Fluigent's Pressure Controller Systems*—could help equalize back pressure across the outlets. Additionally, using standardized tubing connectors with consistent internal diameters and minimizing length differences would reduce the risk of pressure imbalances, ensuring that the separated particle streams remain stable and undisturbed.
 
+This problem also can be minimized by future testing of inlet flow rates to avoid to the formation of eddys and turbulance.
 
 
 
