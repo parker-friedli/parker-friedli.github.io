@@ -13,7 +13,7 @@ feature_row:
   - image_path: assets/img/syringe_real.png
     alt: "Syringe Pump"
     title: "Custom Fabricated Syringe Pump"
-    excerpt: "'<img src="assets/img/syringe_real.png" width="400px" height="300px">'"
+    excerpt: ""
   - image_path: /assets/img/IMG_5117.jpeg
     alt: "Microfluidic Device"
     title: "Pinch Flow Fractination Device using SLA Printing"
