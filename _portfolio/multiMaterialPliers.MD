@@ -59,7 +59,18 @@ Common Filament bonding characteristics for multi-material printing...
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4320aaac0bce5af5e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
-## Print Settings
+## Printing Details
+**Print Settings:**
+
+- Rigid Parts: PLA (standard extrusion settings)
+
+- Flexible Spring: 95A TPU (lower speed, higher retraction)
+
+- Layer Height: 0.2mm
+
+- Infill: 100% for rigid parts, 100% for TPU spring
+
+- Print Orientation: Optimized to ensure moving parts are free after printing
 
 ## Image Gallery and GIF  
 
