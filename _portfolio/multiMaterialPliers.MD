@@ -30,17 +30,17 @@ Print-in-place (PIP) designs enable the creation of complex, multi-component mec
   * <ins>Articulated Models</ins>[^1]    
 
 <p align="center">
-  <img width="550" src="https://videos.cults3d.com/sgSNbXrXnt_-62i-8iVdVtn8nMM=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/14456321/illustration-file/29a252c6-99a3-444e-a0b5-fcf5fce5ad95/Lizard.gif">
+  <img width="350" src="https://videos.cults3d.com/sgSNbXrXnt_-62i-8iVdVtn8nMM=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/14456321/illustration-file/29a252c6-99a3-444e-a0b5-fcf5fce5ad95/Lizard.gif">
 </p>
 
   * <ins>Mechanical Components</ins>[^2]  
 <p align="center">
-  <img width="550" src="https://videos.cults3d.com/eLug1Dg-C9VvgmC65mXUKJNEc4s=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/13845051/illustration-file/771721dc-69c5-45b5-b1d7-04098e879400/giffff2.gif">
+  <img width="350" src="https://videos.cults3d.com/eLug1Dg-C9VvgmC65mXUKJNEc4s=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/13845051/illustration-file/771721dc-69c5-45b5-b1d7-04098e879400/giffff2.gif">
 </p>
 
   * <ins>Integrated Mechanisms</ins>[^3] 
 <p align="center">
-  <img width="550" src="https://videos.cults3d.com/6sOGTx0mO1dUGfRKF4msWDAzS8w=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/13845051/illustration-file/092f3c23-dc8d-4035-addf-7686587f525b/working-gif.gif">
+  <img width="350" src="https://videos.cults3d.com/6sOGTx0mO1dUGfRKF4msWDAzS8w=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/13845051/illustration-file/092f3c23-dc8d-4035-addf-7686587f525b/working-gif.gif">
 </p>
 
   **Multi-material Printing with PIP**
