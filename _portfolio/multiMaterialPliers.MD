@@ -28,6 +28,7 @@ Print-in-place (PIP) designs enable the creation of complex, multi-component mec
   **Aplications for PIP**  
   * <ins>Articulated Models</ins>[^1]    
   * <ins>Mechanical Components</ins>[^2]     
+    ![](https://videos.cults3d.com/6sOGTx0mO1dUGfRKF4msWDAzS8w=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/13845051/illustration-file/092f3c23-dc8d-4035-addf-7686587f525b/working-gif.gif)
   * <ins>Integrated Mechanisms</ins>[^3]    
 
   **Multi-material Printing with PIP**
