@@ -25,7 +25,7 @@ The success of print-in-place designs depends on **precise clearances between mo
 ###  What Are Print-in-Place Models?
 Print-in-place (PIP) designs enable the creation of complex, multi-component mechanisms in a single, ready-to-use print. These designs excel in applications featuring articulating joints, hinges, or interlocking components. PIP designs require precise clearances and print orientation to prevent component fusion during printing. Moreover, multi-material printing can add flexibility to specific areas of the design, enhancing functionality.  
 
-  **Aplications for PIP**
+  **Aplications for PIP**  
     - **Articulated Models[^1]**  
     - **Mechanical Components[^2]**  
     - **Integrated Mechanisms[^3]**  
