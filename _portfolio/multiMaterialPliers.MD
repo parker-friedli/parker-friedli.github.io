@@ -26,9 +26,9 @@ The success of print-in-place designs depends on **precise clearances between mo
 Print-in-place (PIP) designs enable the creation of complex, multi-component mechanisms in a single, ready-to-use print. These designs excel in applications featuring articulating joints, hinges, or interlocking components. PIP designs require precise clearances and print orientation to prevent component fusion during printing. Moreover, multi-material printing can add flexibility to specific areas of the design, enhancing functionality.  
 
   **Aplications for PIP**
-    - **Articulated Models**
-    - **Mechanical Components**
-    - **Integrated Mechanisms**
+    - **Articulated Models[^1]**
+    - **Mechanical Components[^2]**
+    - **Integrated Mechanisms[^3]**
 
   **Multi-material Printing with PIP**
     Combining print-in-place with multi-material printing results in the advantage associated with with different materials, such as having both ridgid and flexible materials within a single print. By using different materials, PIP designs can incorporate elastic return mechanis, and grip-enhaving surfaces withtout requreing assembly and design changes if you were to print materials separately. However, for successful prints you have to select compatible material combinations. Factors such as adhesion properties, thermal compatibility, and the desired material property balance between felxibility and ridgity need to be taken into consideration. The goal is to integration materials that bond appropriately to ensure both sturctural integrity and the desired movement in the final product.
@@ -51,5 +51,8 @@ Print-in-place (PIP) designs enable the creation of complex, multi-component mec
 ## Image Gallery and GIF  
 
 ## References
+[^1}
+[^2]
+[^3]
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
