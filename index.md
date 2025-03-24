@@ -19,9 +19,9 @@ feature_row:
     alt: "Microfluidic Device"
     title: "Pinch Flow Fractination Device using SLA Printing"
     excerpt: ""
- # - image_path: assets/img/Zidex-Thumbnail.jpg
- #   title: "Bespoke IDEX 3D Printer"
-  #  excerpt: "Multimaterial printing. "
+  - image_path: assets/img/multi-material.png
+    title: "3D Printed Mutli-material Pliers"
+    excerpt: "Multimaterial printing. "
 ---
 
 {% include feature_row %}
