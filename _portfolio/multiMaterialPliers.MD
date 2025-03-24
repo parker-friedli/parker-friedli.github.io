@@ -3,8 +3,8 @@
 title: "3D Printed Multi-material Pliers"
 excerpt: "Utilizing pring-in-place principles to create usable 3D printed pliers"
 header:
-  image: /assets/img/multi_material.png
-  teaser: /assets/img/multi_material.png
+  image: /assets/img/multi-material.png
+  teaser: /assets/img/multi-material.png
 gallery:
   - image_path: assets/img/wiring.png
   - image_path: assets/img/drawing1.png
