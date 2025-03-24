@@ -27,25 +27,11 @@ Print-in-place (PIP) designs enable the creation of complex, multi-component mec
 
   **Aplications for PIP**  
 
-| Articulated Models | Mechanical Components | Integratef Mechanisms |
+| Articulated Models | Mechanical Components | Integrated Mechanisms |
 |----------------|----------------|----------------|
+|Movable figures, such as chains, gears, and animals with articulated limbs, allowing for parts to flex or rotate relative to each other without assembly.​|Functional parts like gears, levers, or hinges printed as a single piece with operational movement.|Devices with built-in functional systems, such as springs or latches, that operate immediately after printing.​|
 | ![](https://videos.cults3d.com/sgSNbXrXnt_-62i-8iVdVtn8nMM=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/14456321/illustration-file/29a252c6-99a3-444e-a0b5-fcf5fce5ad95/Lizard.gif) | ![](https://videos.cults3d.com/eLug1Dg-C9VvgmC65mXUKJNEc4s=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/13845051/illustration-file/771721dc-69c5-45b5-b1d7-04098e879400/giffff2.gif)  | ![](https://videos.cults3d.com/6sOGTx0mO1dUGfRKF4msWDAzS8w=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/13845051/illustration-file/092f3c23-dc8d-4035-addf-7686587f525b/working-gif.gif)  |
 
-  * <ins>Articulated Models</ins>[^1]    
-
-<p align="center">
-  <img width="350" src="https://videos.cults3d.com/sgSNbXrXnt_-62i-8iVdVtn8nMM=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/14456321/illustration-file/29a252c6-99a3-444e-a0b5-fcf5fce5ad95/Lizard.gif">
-</p>
-
-  * <ins>Mechanical Components</ins>[^2]  
-<p align="center">
-  <img width="350" src="https://videos.cults3d.com/eLug1Dg-C9VvgmC65mXUKJNEc4s=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/13845051/illustration-file/771721dc-69c5-45b5-b1d7-04098e879400/giffff2.gif">
-</p>
-
-  * <ins>Integrated Mechanisms</ins>[^3] 
-<p align="center">
-  <img width="350" src="https://videos.cults3d.com/6sOGTx0mO1dUGfRKF4msWDAzS8w=/516x516/filters:no_upscale():format(webp)/https://fbi.cults3d.com/uploaders/13845051/illustration-file/092f3c23-dc8d-4035-addf-7686587f525b/working-gif.gif">
-</p>
 
   **Multi-material Printing with PIP**
     Combining print-in-place with multi-material printing results in the advantage associated with with different materials, such as having both ridgid and flexible materials within a single print. By using different materials, PIP designs can incorporate elastic return mechanis, and grip-enhaving surfaces withtout requreing assembly and design changes if you were to print materials separately. However, for successful prints you have to select compatible material combinations. Factors such as adhesion properties, thermal compatibility, and the desired material property balance between felxibility and ridgity need to be taken into consideration. The goal is to integration materials that bond appropriately to ensure both sturctural integrity and the desired movement in the final product.
