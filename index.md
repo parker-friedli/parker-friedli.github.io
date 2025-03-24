@@ -21,7 +21,7 @@ feature_row:
     excerpt: ""
   - image_path: assets/img/multi-material.png
     title: "3D Printed Mutli-material Pliers"
-    excerpt: "Multimaterial printing. "
+    excerpt: ""
 ---
 
 {% include feature_row %}
