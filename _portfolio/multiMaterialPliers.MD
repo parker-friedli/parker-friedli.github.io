@@ -37,12 +37,14 @@ Print-in-place (PIP) designs enable the creation of complex, multi-component mec
 ---
 
 
-## CAD Model
-
 ## Design Description
 * About the design and iterative process (e.g., how was the spring component created and how is it retained in the model, 
 * materials used)
 * Relevant specifications of the pliers (jaw length, jaw capacity)
+
+## CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4320aaac0bce5af5e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 
 ## Print Settings
 
