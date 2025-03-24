@@ -51,8 +51,8 @@ Print-in-place (PIP) designs enable the creation of complex, multi-component mec
 ## Image Gallery and GIF  
 
 ## References
-[^1}
-[^2]
-[^3]
+[^1]:
+[^2]:
+[^3]:
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
