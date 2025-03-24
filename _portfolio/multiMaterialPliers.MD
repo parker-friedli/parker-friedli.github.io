@@ -36,6 +36,14 @@ Print-in-place (PIP) designs enable the creation of complex, multi-component mec
   **Multi-material Printing with PIP**
     Combining print-in-place with multi-material printing results in the advantage associated with with different materials, such as having both ridgid and flexible materials within a single print. By using different materials, PIP designs can incorporate elastic return mechanis, and grip-enhaving surfaces withtout requreing assembly and design changes if you were to print materials separately. However, for successful prints you have to select compatible material combinations. Factors such as adhesion properties, thermal compatibility, and the desired material property balance between felxibility and ridgity need to be taken into consideration. The goal is to integration materials that bond appropriately to ensure both sturctural integrity and the desired movement in the final product.
 
+| Material 1 | Material 2   | Bonding Behavior            | Use Case                                      |
+|------------|--------------|-----------------------------|-----------------------------------------------|
+| PLA        | PVA          | No bonding (dissolvable)    | Removable support structures                  |
+| PETG       | TPU (95A)    | Partial bonding             | Spring-loaded tools, hinges                   |
+| ABS        | TPU          | Good adhesion               | Ergonomic grips, flexible parts               |
+| PLA        | TPU          | Weak adhesion               | Mixed rigid-flexible prints                   |
+| Nylon      | TPU          | Strong adhesion             | Wearable parts, high-strength tools           |
+[^1],[^2]
 
 ---
 
