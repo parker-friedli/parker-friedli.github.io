@@ -30,12 +30,15 @@ Print-in-place (PIP) designs enable the creation of complex, multi-component mec
 - Hinged enclosures
 - Snap-fit connectors for robotics
 
-PIP designs require precise clearances and print orientation to prevent component fusion during printing. Moreover, multi-material printing can add flexibility to specific areas of the design, enhancing functionality.
+PIP designs require precise clearances and print orientation to prevent component fusion during printing. Moreover, multi-material printing can add flexibility to specific areas of the design, enhancing functionality.  
 
+  **Aplicaitons for PIP**
+  - Articulated Models
+  - Mechanical Components
+  - Integrated Mechanisms
 
-* Description of the project with a blurb about print-in-place parts. 
-* Perform external research to determine other applications print-in-place has been used. What combination of materials work well for print-in-place?  
-
+  **Material Combinations for PIP**
+  
 ---
 
 
