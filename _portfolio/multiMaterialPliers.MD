@@ -57,7 +57,7 @@ The initial design concept was inspired by a common 3D-printed plier mechanism t
 <p align="center">
   <img width="550" src="/assets/img/reference.png/">
   <br/>
-  <em>[^3] </em>
+  <em> [3]</em>
 </p>
 
 
