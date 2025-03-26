@@ -77,6 +77,10 @@ Common Filament bonding characteristics for multi-material printing...
 
 ## Image Gallery and GIF  
 
+<p align="center">
+  <img width="550" src="/assets/IMG_5140.gif/">
+</p>
+
 {% include gallery caption="Syringe Pump Project Gallery" %}
 
 ## References
