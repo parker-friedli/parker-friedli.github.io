@@ -104,6 +104,7 @@ The design process
 ## References
 [^1]: G. L. Goh, S. Lee, S. H. Cheng, D. J. S. Goh, P. Laya, V. P. Nguyen, B. S. Han, and W. Y. Yeong, "Enhancing interlaminar adhesion in multi-material 3D printing: A study of conductive PLA and TPU interfaces through fused filament fabrication," Mater. Sci. Addit. Manuf., vol. 3, no. 1, p. 2672, 2024. doi: 10.36922/msam.2672.
 [^2]: Tom's 3D, "Try these filament combinations for multi-material and supports," Tom's 3D Printing Guides and Reviews, Dec. 6, 2024. [Online]. Available: https://toms3d.org/2024/12/06/try-these-filament-combinations-for-multi-material-and-supports/. [Accessed: Mar. 26, 2025].
-[^3]: A. Ion et al., "Metamaterial Mechanisms," in Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16), 2016, pp. 529–539. doi: 10.1145/2984511.2984540.
+[^3]: ColorFabb. "Pliers." ColorFabb, 6 Dec. 2024, https://learn.colorfabb.com/pliers/.
+[^4]: A. Ion et al., "Metamaterial Mechanisms," in Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16), 2016, pp. 529–539. doi: 10.1145/2984511.2984540.
 
 
