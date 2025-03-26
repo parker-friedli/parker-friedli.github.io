@@ -56,7 +56,10 @@ The initial design concept was inspired by a common 3D-printed plier mechanism t
 
 <p align="center">
   <img width="550" src="/assets/img/reference.png/">
+  <br/>
+  <em>[^3] </em>
 </p>
+
 
 Building upon this concept, the design evolved to more closely resemble tweezers rather than pliers, enabling finer control and improved precision. The primary modification involved reshaping the gripping arms into a more streamlined, elongated form, reducing bulk and enhancing dexterity for handling smaller objects. While the TPU grid was retained as the central spring element, its dimensions and structure were adjusted to provide a lighter, more controlled resistance, ensuring a smoother return to the open position without excessive force.
 
