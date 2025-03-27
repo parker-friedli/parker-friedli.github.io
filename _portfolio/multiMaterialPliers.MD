@@ -108,9 +108,7 @@ The final chosen design can be seen below. This set of tweezers includes a
 
 ## Image Gallery and GIF  
 
-<p align="center">
-  <img width="550" src="/assets/img/IMG_5140.gif/">
-</p>
+![](/assets/img/IMG_5140.gif/)
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
 
