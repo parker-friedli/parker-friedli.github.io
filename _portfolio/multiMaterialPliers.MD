@@ -79,7 +79,8 @@ The rectangular spring element was found to be too stiff and so I tested other s
 
 The final **chosen design** can be seen below. This set of tweezers the accordion spring element.
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4320aaac0bce5af5e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4320aaac0bce5af5e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>  
+
 
 **Relevant measurements include...**
 
