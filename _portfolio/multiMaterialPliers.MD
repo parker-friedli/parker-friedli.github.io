@@ -10,6 +10,8 @@ gallery:
   - image_path: assets/img/empty_dove.png
   - image_path: assets/img/full_box.png
   - image_path: assets/img/full_dove.png
+  - image_path: assets/img/IMG_5145.jpeg
+
 ---
 
 ---   
@@ -103,7 +105,6 @@ The final chosen design can be seen below. This set of tweezers includes a
 <p align="center">
   <img src="/assets/img/IMG_5140.gif">
 </p>
-
 
 {% include gallery caption="Multi-material Gallery" %}
 
