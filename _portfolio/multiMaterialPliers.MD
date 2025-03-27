@@ -57,7 +57,6 @@ The initial design concept was inspired by a common 3D-printed plier mechanism t
   <img src="https://learn.colorfabb.com/wp-content/uploads/2017/01/colorfabb_flexi_tang-2.jpg" width="45%">
 </p>
 
-
 Building on this concept, the design evolved to resemble tweezers rather than pliers, for the purpose of enabling finer control and improved precision. While the TPU grid was retained as the central spring element, its dimensions and structure were adjusted to fit the new geometry. Several spring types were designed and tested to find the best iteration with good control, and enough resistance to return the tweezers to open position without excessive force needed to close. 
 
 For example the first spring iteration consisted of a rectangular section with dove tails to connect to the tweezer body. Eliminating the top and bottom layers in SuperSlicer and varying the wall thickness, and infill precentages allowed me to iteratively test various spring constant using the same model.
@@ -71,7 +70,6 @@ For example the first spring iteration consisted of a rectangular section with d
 </p>
 
 The rectangular spring element was found to be too stiff and so I tested other spring geometries, including a flat spring iterations, and an accordion spring.  
-
 
 <p align="center">
   <img src="/assets/img/spring5.png" width="30%">
