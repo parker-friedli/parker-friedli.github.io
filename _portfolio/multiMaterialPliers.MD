@@ -80,7 +80,8 @@ The rectangular spring element was found to be too stiff and so I tested other s
 The final **chosen design** can be seen below. This set of tweezers the accordion spring element.
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4320aaac0bce5af5e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-Relevant measurements include...
+
+**Relevant measurements include...**
 
 <p align="center">
   <img src="/assets/img/Measurements.png">
@@ -88,8 +89,8 @@ Relevant measurements include...
   <em> Measurements given in milimeters </em>
 </p>
 
-- Jaw length:
-- Jaw capacity: 
+- Jaw length: 4 mm  
+- Jaw capacity: 16 mm - 20 mm
 - Over-all tweezer dimensions: 14.8 cm x 3.5 cm
 
 **Print Settings:**
