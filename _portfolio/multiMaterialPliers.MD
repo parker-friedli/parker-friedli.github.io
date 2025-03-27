@@ -74,6 +74,11 @@ For example the first spring iteration consisted of a rectangular section with d
 
 The rectangular spring element was found to be too stiff and so I tested other spring geometries, including a flat spring iterations, and an accordion spring.  
 
+
+|            |              |                 |
+|------------|--------------|-----------------|
+| ![](/assets/img/spring5.png/)|/assets/img/spring6.png/|/assets/img/coil_spring.png/|
+
 <p align="center">
   <img src="/assets/img/spring5.png/" width="30%">
   <img src="/assets/img/spring6.png/" width="30%">
