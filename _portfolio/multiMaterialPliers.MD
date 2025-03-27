@@ -66,10 +66,17 @@ For example the first spring iteration consisted of a rectangular section with d
 
 
 <p align="center">
-  <img src="/assets/img/box_tweezer.jpeg/" width="40%">
-  <img src="/assets/img/spring_infill_Change.png/" width="30%">
+  <img src="/assets/img/box_tweezer.jpeg/" width="45%">
+  <img src="/assets/img/spring_infill_Change.png/" width="45%">
   <br/>
-  <em>Tweezer iteration with box spring element (left). Super slicer settings with various infill percentages (right).</em>
+  <em>Tweezer iteration with rectangular spring element (left). Super slicer settings with various infill percentages (right).</em>
+</p>
+
+The rectangular spring element was found to be too stiff and so I tested other spring geometries, including a flat spring iterations, and an accordion spring.
+<p align="center">
+  <img src="/assets/img/spring5.png/" width="30">
+  <img src="/assets/img/spring6.png/" width="30%">
+  <img src="/assets/img/coil_spring.png/" width="30%">
 </p>
 
 **Design Inspiration**
