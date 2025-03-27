@@ -52,7 +52,7 @@ Common Filament bonding characteristics for multi-material printing...
 
 ## Design Description
 
-The initial design concept was inspired by a common 3D-printed plier mechanism that incorporates a thermoplastic polyurethane (TPU) grid as the central spring component. This approach, as seen in designs such as the ColorFabb 3D-printed pliers [^3], and ___ [^4] which utilizes the flexible TPU grid to provide a restoring force, allowing the pliers to return to their open position after being squeezed. This method effectively replaces traditional metal springs with a fully 3D-printed solution, making it ideal for integrating multiple materials with 3D Printing. 
+The initial design concept was inspired by a common 3D-printed plier mechanism that incorporates a thermoplastic polyurethane (TPU) grid as the central spring component. This approach, as seen in designs such as the ColorFabb 3D-printed pliers (left image[^3], and right image[^4]) which utilizes the flexible TPU grid to provide a restoring force, allowing the pliers to return to their open position after being squeezed. This method effectively replaces traditional metal springs with a fully 3D-printed solution, making it ideal for integrating multiple materials with 3D Printing. 
 
 <p align="center">
   <img src="/assets/img/reference.png/" width="45%">
@@ -60,7 +60,7 @@ The initial design concept was inspired by a common 3D-printed plier mechanism t
 </p>
 
 
-Building upon this concept, the design evolved to more closely resemble tweezers rather than pliers, enabling finer control and improved precision. The primary modification involved reshaping the gripping arms into a more streamlined, elongated form, reducing bulk and enhancing dexterity for handling smaller objects. While the TPU grid was retained as the central spring element, its dimensions and structure were adjusted to provide a lighter, more controlled resistance, ensuring a smoother return to the open position without excessive force.
+Building on this concept, the design evolved to resemble tweezers rather than pliers, for the purpose of enabling finer control and improved precision. While the TPU grid was retained as the central spring element, its dimensions and structure were adjusted to fit the new geometry. Several spring types were designed and tested to find the best iteration with good control, and enough resistance to return the tweezers to open position wihtout excessive force needed to close. 
 
 <p align="center">
   <img width="550" src="/assets/img//">
