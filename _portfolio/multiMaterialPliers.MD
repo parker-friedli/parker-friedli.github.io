@@ -79,20 +79,20 @@ The rectangular spring element was found to be too stiff and so I tested other s
   <img src="/assets/img/coil_spring.png" width="30%">
 </p>
 
-The final chosen design can be seen below. This set of tweezers includes a 
-* Relevant specifications of the pliers (jaw length, jaw capacity)
+The final **chosen design** can be seen below. This set of tweezers the accordion spring element.
 
-
-## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4320aaac0bce5af5e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+Relevant measurements include...
+- Jaw length:
+- Jaw capacity:
+- 
 
-
-## Printing Details
 **Print Settings:**
 
 - Rigid Parts: PLA (standard extrusion settings)
 
-- Flexible Spring: 95A TPU (lower speed, higher retraction)
+- Flexible Spring: 95A TPU (lower speed, higher retraction)  
+  - Box Spring iterations were printed with no top and bottom layers, and 25%, 35%, and 50% Grid infill
 
 - Layer Height: 0.2mm
 
