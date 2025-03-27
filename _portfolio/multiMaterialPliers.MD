@@ -76,8 +76,7 @@ The rectangular spring element was found to be too stiff and so I tested other s
 
 
 |            |              |                 |
-|------------|--------------|-----------------|
-| ![](/assets/img/spring5.png/)|![](/assets/img/spring6.png/) | ![](/assets/img/coil_spring.png/)|
+| ![](/assets/img/spring5.png/) | ![](/assets/img/spring6.png/) | ![](/assets/img/coil_spring.png/)|
 
 <p align="center">
   <img src="/assets/img/spring5.png/" width="30%">
