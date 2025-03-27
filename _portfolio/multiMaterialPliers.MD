@@ -66,7 +66,8 @@ For example the first spring iteration consisted of a rectangular section with d
 
 
 <p align="center">
-  <img width="550" src="/assets/img/square_spring.png/">
+  <img src="/assets/img/empty_dove.png/ width="45%">
+  <img src="/assets/img/spring_infill_Change.png/ width="45%">
 </p>
 
 **Design Inspiration**
