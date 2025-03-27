@@ -1,4 +1,4 @@
-  ---
+---
 
 title: "3D Printed Multi-material Pliers"
 excerpt: "Utilizing pring-in-place principles to create usable 3D printed pliers"
