@@ -60,10 +60,13 @@ The initial design concept was inspired by a common 3D-printed plier mechanism t
 </p>
 
 
-Building on this concept, the design evolved to resemble tweezers rather than pliers, for the purpose of enabling finer control and improved precision. While the TPU grid was retained as the central spring element, its dimensions and structure were adjusted to fit the new geometry. Several spring types were designed and tested to find the best iteration with good control, and enough resistance to return the tweezers to open position wihtout excessive force needed to close. 
+Building on this concept, the design evolved to resemble tweezers rather than pliers, for the purpose of enabling finer control and improved precision. While the TPU grid was retained as the central spring element, its dimensions and structure were adjusted to fit the new geometry. Several spring types were designed and tested to find the best iteration with good control, and enough resistance to return the tweezers to open position without excessive force needed to close. 
+
+For example the first spring iteration consisted of a rectangular section with dove tails to connect to the tweezer body. The wall thickness, and infill precentage were then adjusted in super splicer to effectivly create varying spring constants. 
+
 
 <p align="center">
-  <img width="550" src="/assets/img//">
+  <img width="550" src="/assets/img/square_spring.png/">
 </p>
 
 **Design Inspiration**
