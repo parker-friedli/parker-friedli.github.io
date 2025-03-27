@@ -105,7 +105,7 @@ The final chosen design can be seen below. This set of tweezers includes a
 </p>
 
 
-{% include gallery caption="Syringe Pump Project Gallery" %}
+{% include gallery caption="Multi-material Gallery" %}
 
 ## References
 [^1]: G. L. Goh, S. Lee, S. H. Cheng, D. J. S. Goh, P. Laya, V. P. Nguyen, B. S. Han, and W. Y. Yeong, "Enhancing interlaminar adhesion in multi-material 3D printing: A study of conductive PLA and TPU interfaces through fused filament fabrication," Mater. Sci. Addit. Manuf., vol. 3, no. 1, p. 2672, 2024. doi: 10.36922/msam.2672.
