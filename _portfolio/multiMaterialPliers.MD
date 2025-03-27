@@ -65,14 +65,15 @@ Building on this concept, the design evolved to resemble tweezers rather than pl
 For example the first spring iteration consisted of a rectangular section with dove tails to connect to the tweezer body. Eliminating the top and bottom layers in SuperSlicer and varying the wall thickness, and infill precentages allowed me to iteratively test various spring constant using the same model.
 
 
-<p align="center">
-  <img src="/assets/img/box_tweezer.jpeg/" height="150%" width="45%">
-  <img src="/assets/img/spring_infill_Change.png/" width="45%">
+<p align="center">  
+  <img src="/assets/img/box_tweezer.jpeg/" height="150%" width="45%">  
+  <img src="/assets/img/spring_infill_Change.png/" width="45%">  
   <br/>
   <em>Tweezer iteration with rectangular spring element (left). Super slicer settings with various infill percentages (right).</em>
 </p>
 
-The rectangular spring element was found to be too stiff and so I tested other spring geometries, including a flat spring iterations, and an accordion spring.
+The rectangular spring element was found to be too stiff and so I tested other spring geometries, including a flat spring iterations, and an accordion spring.  
+
 <p align="center">
   <img src="/assets/img/spring5.png/" width="30%">
   <img src="/assets/img/spring6.png/" width="30%">
@@ -94,7 +95,6 @@ The final chosen design can be seen below. This set of tweezers includes a
 - Rigid Parts: PLA (standard extrusion settings)
 
 - Flexible Spring: 95A TPU (lower speed, higher retraction)
-  
 
 - Layer Height: 0.2mm
 
