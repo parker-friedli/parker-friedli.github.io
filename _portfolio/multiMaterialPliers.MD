@@ -77,7 +77,7 @@ The rectangular spring element was found to be too stiff and so I tested other s
   <img src="/assets/img/coil_spring.png" width="30%">
 </p>
 
-The final **chosen design** can be seen below. This set of tweezers the accordion spring element.
+The final **chosen design** can be seen below. This set of tweezers the accordion spring element attatched to the ridgid element utilizing a press fit to maintain position.   
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4320aaac0bce5af5e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>  
 
