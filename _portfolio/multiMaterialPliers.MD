@@ -62,12 +62,15 @@ The initial design concept was inspired by a common 3D-printed plier mechanism t
 
 Building on this concept, the design evolved to resemble tweezers rather than pliers, for the purpose of enabling finer control and improved precision. While the TPU grid was retained as the central spring element, its dimensions and structure were adjusted to fit the new geometry. Several spring types were designed and tested to find the best iteration with good control, and enough resistance to return the tweezers to open position without excessive force needed to close. 
 
-For example the first spring iteration consisted of a rectangular section with dove tails to connect to the tweezer body. The wall thickness, and infill precentage were then adjusted in super splicer to effectivly create varying spring constants. 
+For example the first spring iteration consisted of a rectangular section with dove tails to connect to the tweezer body. Eliminating the top and bottom layers in SuperSlicer and varying the wall thickness, and infill precentages allowed me to iteratively test various spring constant using the same model.
 
 
 <p align="center">
-  <img src="/assets/img/box_tweezer.jpeg/" width="45%">
-  <img src="/assets/img/spring_infill_Change.png/" width="45%">
+  <img src="assets/img/square_spring.png/" width="30%">
+  <img src="/assets/img/box_tweezer.jpeg/" width="40%">
+  <img src="/assets/img/spring_infill_Change.png/" width="30%">
+  <br/>
+  <em>Tweezer iteration with box spring element (left). Super slicer settings with various infill % (right)</em>
 </p>
 
 **Design Inspiration**
