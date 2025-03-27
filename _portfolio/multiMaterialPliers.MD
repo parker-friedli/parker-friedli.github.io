@@ -55,7 +55,7 @@ Common Filament bonding characteristics for multi-material printing...
 The initial design concept was inspired by a common 3D-printed plier mechanism that incorporates a thermoplastic polyurethane (TPU) grid as the central spring component. This approach, as seen in designs such as the ColorFabb 3D-printed pliers (left image[^3], and right image[^4]) which utilizes the flexible TPU grid to provide a restoring force, allowing the pliers to return to their open position after being squeezed. This method effectively replaces traditional metal springs with a fully 3D-printed solution, making it ideal for integrating multiple materials with 3D Printing. 
 
 <p align="center">
-  <img src="/assets/img/reference.png" width="30%">
+  <img src="/assets/img/reference.png" width="45%">
   <img src="https://learn.colorfabb.com/wp-content/uploads/2017/01/colorfabb_flexi_tang-2.jpg" width="45%">
 </p>
 
@@ -74,14 +74,11 @@ For example the first spring iteration consisted of a rectangular section with d
 
 The rectangular spring element was found to be too stiff and so I tested other spring geometries, including a flat spring iterations, and an accordion spring.  
 
-|            |              |              |
-|------------| ------------ | ------------ |
-| ![](/assets/img/spring5.png) | ![](/assets/img/spring6.png) | ![](/assets/img/coil_spring.png)|
 
 <p align="center">
-  <img src="/assets/img/spring5.png/" width="30%">
-  <img src="/assets/img/spring6.png/" width="30%">
-  <img src="/assets/img/coil_spring.png/" width="30%">
+  <img src="/assets/img/spring5.png" width="30%">
+  <img src="/assets/img/spring6.png" width="30%">
+  <img src="/assets/img/coil_spring.png" width="30%">
 </p>
 
 The final chosen design can be seen below. This set of tweezers includes a 
@@ -107,7 +104,10 @@ The final chosen design can be seen below. This set of tweezers includes a
 
 ## Image Gallery and GIF  
 
-![](/assets/img/IMG_5140.gif/)
+<p align="center">
+  <img src="/assets/img/IMG_5140.gif">
+</p>
+
 
 {% include gallery caption="Syringe Pump Project Gallery" %}
 
