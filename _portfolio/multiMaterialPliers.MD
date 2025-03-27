@@ -6,14 +6,10 @@ header:
   image: /assets/img/multi-material.png
   teaser: /assets/img/multi-material.png
 gallery:
-  - image_path: assets/img/wiring.png
-  - image_path: assets/img/drawing1.png
-  - image_path: assets/img/drawing2.png
-  - image_path: assets/img/drawing3.png
-  - image_path: assets/img/drawing4.png
-  - image_path: assets/img/drawing5.png
-
-
+  - image_path: assets/img/empty_box.png
+  - image_path: assets/img/empty_dove.png
+  - image_path: assets/img/full_box.png
+  - image_path: assets/img/full_dove.png
 ---
 
 ---   
