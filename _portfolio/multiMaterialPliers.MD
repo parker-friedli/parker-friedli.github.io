@@ -69,7 +69,7 @@ For example the first spring iteration consisted of a rectangular section with d
   <img src="/assets/img/box_tweezer.jpeg/" width="40%">
   <img src="/assets/img/spring_infill_Change.png/" width="30%">
   <br/>
-  <em>Tweezer iteration with box spring element (left). Super slicer settings with various infill percentage (right).</em>
+  <em>Tweezer iteration with box spring element (left). Super slicer settings with various infill percentages (right).</em>
 </p>
 
 **Design Inspiration**
