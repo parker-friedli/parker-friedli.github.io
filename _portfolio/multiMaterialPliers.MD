@@ -79,10 +79,7 @@ The rectangular spring element was found to be too stiff and so I tested other s
   <img src="/assets/img/coil_spring.png/" width="30%">
 </p>
 
-**Design Inspiration**
-The design process 
-* About the design and iterative process (e.g., how was the spring component created and how is it retained in the model, 
-* materials used)
+The final chosen design can be seen below. This set of tweezers includes a 
 * Relevant specifications of the pliers (jaw length, jaw capacity)
 
 
