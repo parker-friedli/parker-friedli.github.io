@@ -84,6 +84,8 @@ Relevant measurements include...
 
 <p align="center">
   <img src="/assets/img/Measurements.png">
+  <br/>
+  <em> measurements in mm</em>
 </p>
 
 - Jaw length:
