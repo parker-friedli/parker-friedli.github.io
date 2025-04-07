@@ -15,11 +15,18 @@ gallery:
 
 ---
 ## Project Overview
-This project features a 3D-printed phone holder designed to attach to bike handlebars using a top-down modeling workflow in Fusion 360. The design incorporates a spring-loaded detent mechanism, to enable the phone to snap securely between orientations without tools. Designed for both powder SLS and filament printing, I iteratively refined tolerances and clearances to achieve a tight fit, and durable assembly. The phone holder attaches to standard handlebars and stays stable and in place while in motion.
 
-## Final Design
+This project features a 3D-printed phone holder designed to attach to bike handlebars. The design incorporates a spring-loaded detent mechanism that allows the phone to snap securely between orientations without the need for tools. Developed for both powder SLS and filament printing, the design was iteratively refined to optimize tolerances and clearances for a tight fit and durable assembly. The phone holder mounts to standard handlebars and remains stable during motion.
+
+## Final Product
+
 ## Design Rationale
+This phone holder was built around two primary goals: functionality as a phone holder with ability to rotate between portrait and landscape orientations, and ability to be manufactured with available rapid prototyping methods.  When Designing, a top-down modeling approach was used to establish correct fit with the given part dimensions and ensure components fit together smoothly. The tope-down method involves starting with the overall assembly, using fixed references—such as the handle bar and phone-to define the spatial relationships between other components.  Individual parts are then modeled around these references to ensue precise fit and alignment. In essence, the top-down approach ensured the final product would work withing the given part dimensions-specifically the handle bar diameter, phone size, and ball and spring detent dimensions.
+
 ## Assembly & Use Instructions
+
 ## 3D Printing Process
+
 ## Component Gallery
+
 ## Files & Downloads
