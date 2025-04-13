@@ -7,11 +7,16 @@ header:
   image: /assets/img/IMG_5183.jpeg
   teaser: /assets/img/IMG_5183.jpeg
 gallery:
-  - image_path: assets/img/empty_box.png
-  - image_path: assets/img/empty_dove.png
-  - image_path: assets/img/full_box.png
-  - image_path: assets/img/full_dove.png
-  - image_path: assets/img/IMG_5145.jpeg
+  - image_path: assets/img/Lower_clamp.png
+  - image_path: assets/img/Upper_clamp.png
+  - image_path: assets/img/Inner_detent.png
+  - image_path: assets/img/outer_detent.png
+  - image_path: assets/img/stretch_band.png
+  - image_path: assets/img/Detent_cover.png
+  - image_path: assets/img/slider.png
+  - image_path: assets/img/Slider_holder.png
+
+
 
 ---
 ## Project Overview
