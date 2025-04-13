@@ -4,8 +4,8 @@ title: "Bike Phone Holder with Detent Mechanism"
 excerpt: "Using Top-down Modeling Technique to design and filament 3D print a phone holder
 for a bike."
 header:
-  image: /assets/img/multi-material.png
-  teaser: /assets/img/multi-material.png
+  image: /assets/img/IMG_5183.jpeg
+  teaser: /assets/img/IMG_5183.jpeg
 gallery:
   - image_path: assets/img/empty_box.png
   - image_path: assets/img/empty_dove.png
