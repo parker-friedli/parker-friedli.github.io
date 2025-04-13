@@ -19,7 +19,7 @@ gallery:
 This project features a 3D-printed phone holder designed to attach to bike handlebars. The design incorporates a spring-loaded detent mechanism that allows the phone to snap securely between orientations without the need for tools. Developed for both powder SLS and filament printing, the design was iteratively refined to optimize tolerances and clearances for a tight fit and durable assembly. The phone holder mounts to standard handlebars and remains stable during motion.
 
 ## Final Product
-![](assets/img/IMG_5186.gif)
+![](/assets/img/IMG_5186.gif)
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a42d5e65914b388383?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
