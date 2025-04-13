@@ -25,8 +25,8 @@ This project features a 3D-printed phone holder designed to attach to bike handl
 
 ## Final Product
 <p align="center">
-  <img src="/assets/img/IMG_5186.gif" width="150"/>
-  <img src="/assets/img/IMG_5185.jpeg" width="200"/>
+  <img src="/assets/img/IMG_5186.gif" width="200"/>
+  <img src="/assets/img/IMG_5185.jpeg" width="266"/>
 </p>
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a42d5e65914b388383?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
