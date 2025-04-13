@@ -35,7 +35,10 @@ This phone holder was designed around two primary goals: functionality as a phon
 
 A key feature of the design is the rotation mechanism, which uses a spring-loaded detent system to let the phone rotate cleanly between portrait and landscape orientations. The detents provide tactile feedback and help keep the phone stable. During early testing, however, it became clear that small forces on the handle bar-forces that would occur with normal riding condition-introduced enough vibration and jarring forces to sometimes cause unintended rotation of the detent mechanism. To address this, the spring stiffness was increased, and a slot feature (fig. X) was created to further increase the springe force by increasing the compression the spring. A stiffer spring raised the force required to rotate the phone, preventing it from shifting unless deliberately adjusted by the user. 
 
-![](/assets/img/cross_section.png)
+<p align="center">
+  <img src="/assets/img/cross_section.png" " width="400"/>
+</p>
+
 
 Another important aspect of the design was achieving a secure grip on the phone. To address this, two solutions were implemented:
 1. A stretchable TPU grip that conforms around the edges of the phone to hold it in place.
