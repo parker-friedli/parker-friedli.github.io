@@ -46,9 +46,7 @@ Both features work together to secure the device firmly without the need for too
 
 ## 3D Printing Process
 
-## Component Gallery & Bill of Materials
-{% include gallery caption="From left to right, top to bottom, the parts shown are: 1, 2, 3, 4, 7, 8, 9, 10" %}
-
+## Bill of Materials & Component Gallery
 
 | Item No. | Part Name              | Quantity | Material        | Manufacturing Method | Notes                            |
 |----------|------------------------|----------|------------------|---------------------|----------------------------------|
@@ -67,6 +65,11 @@ Both features work together to secure the device firmly without the need for too
 | 13       | Socket Heat Screw (M5 x 20 mm)      | 2        | Alloy Steel  | Off-the-shelf       |              |
 | 14       | Socket Heat Screw (M5 x 8 mm)      | 1        | Alloy Steel  | Off-the-shelf       |              |
 | 15       | Socket Heat Screw (M5 x 8 mm)  | 3        | Alloy Steel  | Off-the-shelf       |              |
+
+{% include gallery caption="" %}
+From left to right, top to bottom, the parts shown are: 1, 2, 3, 4, 7, 8, 9, 10
+
+
 
 
 ## Files & Downloads
