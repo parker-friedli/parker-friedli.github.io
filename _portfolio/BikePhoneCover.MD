@@ -41,10 +41,9 @@ Both features work together to secure the device firmly without the need for too
 
 ## 3D Printing Process
 
-## Component Gallery
+## Component Gallery & Bill of Materials
 {% include gallery caption="Components" %}
 
-## Bill of Materials
 
 | Item No. | Part Name              | Quantity | Material        | Manufacturing Method | Notes                            |
 |----------|------------------------|----------|------------------|---------------------|----------------------------------|
