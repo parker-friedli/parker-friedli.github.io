@@ -62,7 +62,7 @@ To integrate threaded brass inserts, holes in SLS-printed components were intent
 
 Components produced with **Fused Filament Fabrication (FFF)**, including the Phone Mount Frame, Slider, and TPU-based parts, were designed with additional hole clearance to account for FFF printing tolerances and dimensional inaccuracies.
 
-The flexible elements, such as the Phone Mount Band and TPU Phone Grip, were printed using thin TPU layers to maximize stretch and elasticity. This allowed the parts to maintain strong retention while adapting to various phone sizes without needing tools.
+The flexible elements, such as the Phone Mount Band and TPU Phone Grip, were printed using thin **TPU** layers to maximize stretch and elasticity. This allowed the parts to maintain strong retention while adapting to various phone sizes without needing tools.
 
 ## Bill of Materials & Component Gallery
 
