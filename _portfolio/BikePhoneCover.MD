@@ -60,7 +60,7 @@ High-stress and precision-critical parts (such as the Lower and Upper Handlebar 
 
 To integrate threaded brass inserts, holes in SLS-printed components were intentionally undersized, allowing for post-processing by adding heat-set inserts. This  ensured a tight mechanical fit for reliable threaded connections.
 
-Components produced with **Fused Filament Fabrication (FFF)**, including the Phone Mount Frame, Slider, and TPU-based parts, were designed with **additional hole clearance** to compensate for common FFF printing tolerances and slight dimensional inaccuracies.
+Components produced with **Fused Filament Fabrication (FFF)**, including the Phone Mount Frame, Slider, and TPU-based parts, were designed with additional hole clearance to account for FFF printing tolerances and dimensional inaccuracies.
 
 The flexible elements, such as the Phone Mount Band and TPU Phone Grip, were printed using thin TPU layers to maximize stretch and elasticity. This allowed the parts to maintain strong retention while adapting to various phone sizes without needing tools.
 
