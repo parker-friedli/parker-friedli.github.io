@@ -113,6 +113,11 @@ From left to right, top to bottom, the parts shown are: 1, 2, 3, 4, 7, 8, 9, 10
 
 ---
 
+<p align="center">
+  <img src="/assets/img/Exploded.png" width="400"/>
+</p>
+
+
 ### To use the phone holder
 
 - Screw the assembled unit onto your bike frame at the desired viewing angle
