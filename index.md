@@ -22,6 +22,9 @@ feature_row:
   - image_path: assets/img/multi-material.png
     title: "3D Printed Mutli-material Pliers"
     excerpt: ""
+  - image_path: assets/img/.png
+    title: "Rotating Bike Phone Holder"
+    excerpt: ""
 ---
 
 {% include feature_row %}
