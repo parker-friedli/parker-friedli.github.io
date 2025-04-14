@@ -113,7 +113,7 @@ From left to right, top to bottom, the parts shown are: 1, 2, 3, 4, 7, 8, 9, 10
 
 ---
 
-### To use the phone holder:
+### To use the phone holder
 
 - Screw the assembled unit onto your bike frame at the desired viewing angle
 - Insert your phone by stretching the TPU band around the edges of the device
