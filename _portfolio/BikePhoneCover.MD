@@ -96,7 +96,7 @@ From left to right, top to bottom, the parts shown are: 1, 2, 3, 4, 7, 8, 9, 10
 
 ---
 
-****Assembly Steps
+**Assembly Steps**
 
 - [ ] Insert heat-set inserts into detent base, and uper handle bar clamp
 - [ ] Screw detent base to mounting surface or frame
@@ -113,7 +113,7 @@ From left to right, top to bottom, the parts shown are: 1, 2, 3, 4, 7, 8, 9, 10
 
 **To use the phone holder:**
 
-- [ ] Screw the assembled unit onto your bike frame at the desired viewing angle
-- [ ] Insert your phone by stretching the TPU band around the edges of the device
-- [ ] Rotate to your preferred detent position — it will lock with a tactile click
+- Screw the assembled unit onto your bike frame at the desired viewing angle
+- Insert your phone by stretching the TPU band around the edges of the device
+- Rotate to your preferred detent position — it will lock with a tactile click
 
