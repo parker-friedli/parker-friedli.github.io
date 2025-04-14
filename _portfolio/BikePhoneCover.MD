@@ -56,7 +56,7 @@ Both features work together to secure the device firmly without the need for too
 
 The phone mount assembly was created using components manufactured using both SLS and FFF 3D printing methods, selected based on functional requirements and material performance.  
 
-High-stress and precision-critical parts—such as the Lower and Upper Handlebar Clamps, Detent Base, and Detent Housing—were fabricated using **Selective Laser Sintering (SLS)** with nylon. This provided more strength (specificaly between layers), durability, and fine feature resolution.
+High-stress and precision-critical parts (such as the Lower and Upper Handlebar Clamps, Detent Base, and Detent Housing) were fabricated using **Selective Laser Sintering (SLS)** with nylon. This provided more strength (specificaly between layers), durability, and fine feature resolution.
 
 To integrate threaded brass inserts, holes in SLS-printed components were intentionally undersized, allowing for post-processing by adding heat-set inserts. This  ensured a tight mechanical fit for reliable threaded connections.
 
