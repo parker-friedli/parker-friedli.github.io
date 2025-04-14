@@ -54,6 +54,16 @@ Both features work together to secure the device firmly without the need for too
 
 ## 3D Printing Process
 
+The phone mount assembly was created using components manufactured using both SLS and FFF 3D printing methods, selected based on functional requirements and material performance.  
+
+High-stress and precision-critical parts—such as the Lower and Upper Handlebar Clamps, Detent Base, and Detent Housing—were fabricated using **Selective Laser Sintering (SLS)** with nylon. This provided more strength (specificaly between layers), durability, and fine feature resolution.
+
+To integrate threaded brass inserts, holes in SLS-printed components were intentionally undersized, allowing for post-processing by adding heat-set inserts. This  ensured a tight mechanical fit for reliable threaded connections.
+
+Components produced with **Fused Filament Fabrication (FFF)**, including the Phone Mount Frame, Slider, and TPU-based parts, were designed with **additional hole clearance** to compensate for common FFF printing tolerances and slight dimensional inaccuracies.
+
+The flexible elements, such as the Phone Mount Band and TPU Phone Grip, were printed using thin TPU layers to maximize stretch and elasticity. This allowed the parts to maintain strong retention while adapting to various phone sizes without needing tools.
+
 ## Bill of Materials & Component Gallery
 
 | Item No. | Part Name              | Quantity | Material        | Manufacturing Method | Notes                            |
