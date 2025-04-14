@@ -111,9 +111,12 @@ From left to right, top to bottom, the parts shown are: 1, 2, 3, 4, 7, 8, 9, 10
 - [ ] Detent rotates and locks in place
 - [ ] Phone holder is secured and stretches properly
 
-**To use the phone holder:**
+---
+
+###To use the phone holder:###
 
 - Screw the assembled unit onto your bike frame at the desired viewing angle
 - Insert your phone by stretching the TPU band around the edges of the device
 - Rotate to your preferred detent position — it will lock with a tactile click
 
+---
