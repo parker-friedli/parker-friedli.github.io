@@ -49,9 +49,6 @@ Another important aspect of the design was achieving a secure grip on the phone.
 2. A sliding clamp mechanism that adjusts to different phone sizes.
 Both features work together to secure the device firmly without the need for tools. 
 
-
-## Assembly & Use Instructions
-
 ## 3D Printing Process
 
 The phone mount assembly was created using components manufactured using both SLS and FFF 3D printing methods, selected based on functional requirements and material performance.  
@@ -86,3 +83,37 @@ The flexible elements, such as the Phone Mount Band and TPU Phone Grip, were pri
 
 {% include gallery caption="" %}
 From left to right, top to bottom, the parts shown are: 1, 2, 3, 4, 7, 8, 9, 10
+
+
+## Assembly & Use Instructions
+
+**Tools & Materials**
+- [ ] Soldering iron with heat-set insert tip
+- [ ] Brass heat-set inserts 
+- [ ] Spring and ball bearing
+- [ ] Screws
+- [ ] Printed parts
+
+---
+
+****Assembly Steps
+
+- [ ] Insert heat-set inserts into detent base, and uper handle bar clamp
+- [ ] Screw detent base to mounting surface or frame
+- [ ] Place spring and ball bearing into detent pocket
+- [ ] Attach stretchable phone holder underneath detent cover, in fitted slot
+- [ ] Align and screw on detent cover
+- [ ] Verify detent clicks and holder moves smoothly
+
+---
+
+**Check**
+- [ ] Detent rotates and locks in place
+- [ ] Phone holder is secured and stretches properly
+
+**To use the phone holder:**
+
+- [ ] Screw the assembled unit onto your bike frame at the desired viewing angle
+- [ ] Insert your phone by stretching the TPU band around the edges of the device
+- [ ] Rotate to your preferred detent position — it will lock with a tactile click
+
