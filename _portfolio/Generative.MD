@@ -16,8 +16,14 @@ gallery:
   - image_path: assets/img/Slider_holder.png
 
 ---
+# Digital Caliper Stand | Generative Design Project
 
 ## Project Overview
+The final part is a lightweight, generatively designed stand for a standard 6-inch digital caliper. In typical lab and workshop environments, calipers are often placed loosely on benches, risking damage to their sensitive jaws and compromising measurement accuracy. Commercial caliper stands tend to be bulky, overbuilt, or not optimized for frequent handling.
+
+This project aimed to create a compact, stable, and material-efficient stand that supports the caliper securely while allowing for easy access and safe storage. The generative design approach allowed the stand to maintain necessary mechanical support while minimizing material usage, resulting in an organic, efficient form ideal for SLS printing with PA12 nylon.
+
+I chose this project because I use calipers regularly during coursework and fabrication projects, and I saw firsthand how common it is for these precision tools to get dropped or improperly stored. Designing a stand not only made the tool more accessible during daily use but also helped extend its lifespan, making this project personally meaningful and practically useful.
 
 ---
 ## Design Setup
