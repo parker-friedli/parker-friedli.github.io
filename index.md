@@ -25,6 +25,9 @@ feature_row:
   - image_path: assets/img/IMG_5183.jpeg
     title: "Rotating Bike Phone Holder"
     excerpt: ""
+ - image_path: assets/img/caliper_stand_render.png
+    title: "Caliper Stand | Generative Design"
+    excerpt: ""
 ---
 
 {% include feature_row %}
