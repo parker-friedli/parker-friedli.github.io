@@ -73,7 +73,7 @@ Three types of forces were applied in the generative design study:
 Each of these forces were applied in excess (i.e. high safety factor) such that the final design maintained both stability and functionality during  use, accounting for main static loads (the caliper’s weight) as well as possible dynamic interactions (bumping and tipping).
 
 ### Load Magnitude, Direction, and Location
-- The *vertical normal load* was estimated at approximately 3 N, based on the mass of a typical 6-inch digital caliper (~300 grams) and converted using $$ F = m \times g$$
+- The *vertical normal load* was estimated at approximately 3 N, based on the mass of a typical 6-inch digital caliper (~300 grams) and converted using $$F = m \times g$$
 - The *lateral shear load* was estimated at about 2 N, accounting for light side impacts from a user's hand or workspace movement.
 - The *moment load* was approximated at 0.3 Nm to represent a small rotational force acting around the base edge if the caliper was bumped unevenly.
 
