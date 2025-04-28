@@ -3,8 +3,8 @@
 title: "Digital Caliper Stand Using Generative Design"
 excerpt: "Using Fusions generative design workspace to create digital caliper stand."
 header:
-  image: /assets/img/IMG_5183.jpeg
-  teaser: /assets/img/IMG_5183.jpeg
+  image: /assets/img/caliper_stand_render.png
+  teaser: /assets/img/caliper_stand_render.png
 gallery:
   - image_path: assets/img/Lower_clamp.png
   - image_path: assets/img/Upper_clamp.png
