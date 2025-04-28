@@ -110,8 +110,8 @@ If excessive flexing, deformation, or instability is observed during testing, ad
 
 ### Workflow Summary
 Created a simplified model of the calipers to define critical interfaces and clearances.
-- Defined **preserve geometries** at three main caliper contact points (blade/scale support, lower jaw cradle, back rest) and the base footprint for surface stability.
-- Created **obstacle geometries** around the caliper clearance volume (with 0.5 mm offset), around the gripping area for easy removal, and above the battery storage locations to maintain access.
+- Defined reserve geometries at three main caliper contact points (blade/scale support, lower jaw cradle, back rest) and the base footprint for surface stability.
+- Created obstacle geometries around the caliper clearance volume (with 0.5 mm offset), around the gripping area for easy removal, and above the battery storage locations to maintain access.
 - Applied three main types of loads to the preserves:  
   *Normal forces* to simulate caliper weight, *lateral shear* to simulate side impacts, and *tipping moments* to model uneven placement stresses.
 - Applied fixed constraints along the bottom surface of the base footprint to simulate a rigid surface interaction.
