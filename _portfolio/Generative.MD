@@ -45,7 +45,7 @@ Obstacle geometries were defined around the areas where the caliper would need t
   
   **Obstacle Geometries *(red components)***
   
-    - **Caliper Clearance Volume:**  
+   - **Caliper Clearance Volume:**  
     The entire simplified caliper body was designated as obstacle geometry with a 0.5 mm offset, ensuring that the generative model would not interfere with inserting or removing the caliper.
   
   - **Grip Clearance:**  
