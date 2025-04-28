@@ -55,7 +55,7 @@ Obstacle geometries were defined around the areas where the caliper would need t
     The preserve volume for the battery storage areas was extended vertically to prevent material generation above the batteries, ensuring they remain accessible.
 
 
-  ### Load Cases and Structural Constraints
+### Load Cases and Structural Constraints
   | Load Type         | Approximate Value | Application Area       | Reasoning                        |
 |-------------------|-------------------|-------------------------|----------------------------------|
 | Vertical Load     | ~3 N               | Support arms and base   | Support weight of caliper        |
