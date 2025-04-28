@@ -27,7 +27,7 @@ I chose this project because I use calipers regularly during coursework and fabr
 
 ---
 ## Design Setup
-  # Preserve and Obstacle Geometry
+  ### Preserve and Obstacle Geometry
   - **Preserve Geometry**
     - Mounting cradle contact points for securing the caliper.
     - Stable base footprint to resist tipping.
@@ -38,7 +38,7 @@ I chose this project because I use calipers regularly during coursework and fabr
     - Space reserved for buttons and screen access.
 
 
-  # Load Cases and Structural Constraints
+  ### Load Cases and Structural Constraints
   | Load Type         | Approximate Value | Application Area       | Reasoning                        |
 |-------------------|-------------------|-------------------------|----------------------------------|
 | Vertical Load     | ~3 N               | Support arms and base   | Support weight of caliper        |
@@ -52,6 +52,6 @@ I chose this project because I use calipers regularly during coursework and fabr
 
 ---
 ## Generative Design Process
-  # Workflow Summary
-  # Fusion 360 Iterations
+  ### Workflow Summary
+  ### Fusion 360 Iterations
   
