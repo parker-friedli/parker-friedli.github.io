@@ -16,6 +16,7 @@ gallery:
   - image_path: assets/img/Slider_holder.png
 
 ---
+
 # Digital Caliper Stand | Generative Design Project
 
 ## Project Overview
