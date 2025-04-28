@@ -133,4 +133,6 @@ Created a simplified model of the calipers to define critical interfaces and cle
 
 {% include gallery caption="" %}
 
-  
+## Critique and Final Comments on Generative Design 
+
+
