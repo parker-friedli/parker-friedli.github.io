@@ -27,8 +27,8 @@ The purpose of this project was to produce a stand for 6-inch digital calipers u
   ### Preserve and Obstacle Geometry
 
 <p align="center">
-  <img src="assets/img/front" width="45%"/>
-  <img src="assets/img/back" width="45%"/>
+  <img src="assets/img/front.png" width="45%"/>
+  <img src="assets/img/back.png" width="45%"/>
 </p>
 
 After creating a simplified model of the calipers, additional perserve and obsticle geometries were created with the goal of providing support of the calipers. Specifically, preserve geometries were created at three contact points where the caliper body rests: the main blade/scale of caliper (longest part of the body), a back rest behind the calipers center of mass, and an area to cradle the lower measurement jaws. A fourth preserve geometry was created to serve as a base footprint to rest on table or other surface.
