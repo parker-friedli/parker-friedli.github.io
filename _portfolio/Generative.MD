@@ -126,8 +126,12 @@ Created a simplified model of the calipers to define critical interfaces and cle
 - Applied fixed constraints along the bottom surface of the base footprint to simulate a rigid surface interaction.
 - Ran multiple generative design studies prioritizing lightweighting while maintaining sufficient stiffness and support at contact points.
 - Selected a final geometry that balanced minimal mass with functional stability and clearance requirements for everyday caliper use.
+- Fabricated stand using both FFF and SLS printing
 
-
+<p align="center">
+  <img src="/assets/img/stand_1.jpeg" width="40%">
+  <img src="/assets/img/stand_2.jpeg" width="40%">
+</p>
 
 ### Fusion 360 Iterations
 
@@ -152,4 +156,7 @@ Thus it seems generative design would be much more useful in situations where:
 
 Overall, while generative design proved to be a fun experiment and added an interesting aesthetic and lightweight form to the caliper stand, it was not the most efficient design method for such a simple part.
 
+<p align="center">
+  <img src="/assets/img/caliper.gif" width="75%">
+</p>
 
