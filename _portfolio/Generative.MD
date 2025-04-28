@@ -76,6 +76,6 @@ Obstacle geometries were defined around the areas where the caliper would need t
 
 ---
 ## Generative Design Process
-  ### Workflow Summary
-  ### Fusion 360 Iterations
+### Workflow Summary
+### Fusion 360 Iterations
   
