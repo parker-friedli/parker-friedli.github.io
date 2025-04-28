@@ -25,7 +25,7 @@ The purpose of this project was to produce a stand for 6-inch digital calipers u
 ---
 ## Design Setup
 
-###Preserve and Obstacle Geometry
+### Preserve and Obstacle Geometry
 
 <p align="center">
   <img src="/assets/img/front.png" width="45%">
