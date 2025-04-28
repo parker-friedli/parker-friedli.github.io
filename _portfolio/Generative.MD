@@ -106,7 +106,7 @@ If excessive flexing, deformation, or instability is observed during testing, ad
 - **Unrestricted Manufacturing:**  
   Full use of unrestricted manufacturing settings to take advantage of the SLS process and allow complex geometries without support structures.
 - **Additive Z-Axis Constraint:**  
-  Additive manufacturing along the Z-axis was enabled to accommodate potential prototyping and minor post-processing. This setting allowed for minor design corrections or small features to be easily modified or repaired with traditional FDM 3D printing if necessary during iteration.
+  Additive manufacturing along the Z-axis was enabled to allow for prototyping, as setting allowed for minor design corrections or small features to be easily modified or repaired with FF 3D printing if necessary during iteration.
 
 ### Workflow Summary
 Created a simplified model of the calipers to define critical interfaces and clearances.
