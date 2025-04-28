@@ -127,6 +127,8 @@ Created a simplified model of the calipers to define critical interfaces and cle
 - Ran multiple generative design studies prioritizing lightweighting while maintaining sufficient stiffness and support at contact points.
 - Selected a final geometry that balanced minimal mass with functional stability and clearance requirements for everyday caliper use.
 
+
+
 ### Fusion 360 Iterations
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a489d28ed164883058?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
@@ -134,5 +136,20 @@ Created a simplified model of the calipers to define critical interfaces and cle
 {% include gallery caption="" %}
 
 ## Critique and Final Comments on Generative Design 
+
+While using generative design, provided an opportunity to explore lightweighting, and an emerging tool, it was not the most practical tool for this particular project. The caliper stand was relatively simple, and the time  required to set up and run generative simulations proved to not be beneficial. That is, each generative design run took approximately 30 minutes, which was significantly longer than it would have taken to manually model a functional stand using traditional CAD methods.
+
+There was also the encountered difficulty in accurately estimating forces. Because the caliper is handled in different ways during use, and it didn't require much support (besides its weight) it was hard to define precise loading conditions. As a result, a large safety factor had to be applied to the forces, which ultimately reduced the efficiency gains that generative design would normally provide if exact loads were known.
+
+There were also limitations in how the design space could be constrained. Specifically:
+- There was no simple way to define an exact bounding box or maximum volume (such as 100mm × 100mm × 100mm) within the generative solver, making it harder to strictly control the overall part dimensions.
+- The outcome was more driven by load paths and preserve/obstacle geometries than by precise external shape constraints.
+
+Thus it seems generative design would be much more useful in situations where:
+- There are strict spatial constraints combined with complex force interactions.
+- Exact force magnitudes and directions are known and critical to the part’s performance, such as in industrial automotive components, aerospace brackets, or medical implants.
+- Designers need to optimize parts across multiple conflicting requirements where traditional CAD would be slow or ineffective, especially for large or intricate assemblies.
+
+Overall, while generative design proved to be a fun experiment and added an interesting aesthetic and lightweight form to the caliper stand, it was not the most efficient design method for such a simple part.
 
 
