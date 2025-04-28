@@ -72,6 +72,7 @@ Three types of forces were applied in the generative design study:
 - *Normal Force:* Simulated the weight of the caliper resting on the stand, applied at center of mass. Additional normal forces at all contact points simulating compression from weight of caliper.
 - *Lateral Shear Load:* Represented small side forces from incidental bumps or sliding contact during placement or removal.
 - *Moment (Tipping Load):* Modeled the potential tipping effect if the caliper was placed unevenly, and to represent excess moment of weight from unsported section of caliper. 
+- *Also experimented with pressure for back support as it equates to the normal force over area*
 
 <p align="center">
   <img src="/assets/img/normal.png" width="30%">
