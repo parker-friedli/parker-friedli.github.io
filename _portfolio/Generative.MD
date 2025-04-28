@@ -30,29 +30,29 @@ After creating a simplified model of the calipers, additional perserve and obsti
 
 Obstacle geometries were defined around the areas where the caliper would need to move freely. Meaning the main obstacle geometry involved the simplified model of the calipers with an obstacle offset of 0.5 mm. The second geometry invloved a simplified rectangular prism placed in front of the main caliper body to ensure the measurement guide would be both visible while displayed and easily grabbed by this portion to take the calipers off of the stand. Additional preserve geometries were created in the base footprint to serve as storage space for additional caliper batteries. Note that the preserve geometry for the batteries was defined to be taller than the batteries to ensure the model would not generate in the space above such that the batteries could still be able to be removed when needed.
 
-**Preserve Geometries *(green components)***
-- **Main Blade/Scale Support:**  
-  A preserve region along the length of the caliper’s main blade was created to provide continuous support for the body during storage.
-
-- **Back Rest Support:**  
-  A preserve located behind the caliper’s center of mass stabilized the tool and prevented tipping backward while resting in the stand.
-
-- **Lower Jaw Cradle:**  
-  A preserve cradle was positioned under the lower measurement jaws to protect and support the caliper’s most sensitive measuring surfaces.
-
-- **Base Footprint:**  
-  A preserve was added to define a stable base platform where the stand rests securely on a table or workbench surface.
-
-**Obstacle Geometries *(red components)***
-
-  - **Caliper Clearance Volume:**  
-  The entire simplified caliper body was designated as obstacle geometry with a 0.5 mm offset, ensuring that the generative model would not interfere with inserting or removing the caliper.
-
-- **Grip Clearance:**  
-  A rectangular obstacle volume was added in front of the main caliper body to maintain clear access to the caliper’s measurement guide, allowing easy grasping for removal from the stand.
-
-- **Battery Access Clearance:**  
-  The preserve volume for the battery storage areas was extended vertically to prevent material generation above the batteries, ensuring they remain accessible.
+  **Preserve Geometries *(green components)***
+  - **Main Blade/Scale Support:**  
+    A preserve region along the length of the caliper’s main blade was created to provide continuous support for the body during storage.
+  
+  - **Back Rest Support:**  
+    A preserve located behind the caliper’s center of mass stabilized the tool and prevented tipping backward while resting in the stand.
+  
+  - **Lower Jaw Cradle:**  
+    A preserve cradle was positioned under the lower measurement jaws to protect and support the caliper’s most sensitive measuring surfaces.
+  
+  - **Base Footprint:**  
+    A preserve was added to define a stable base platform where the stand rests securely on a table or workbench surface.
+  
+  **Obstacle Geometries *(red components)***
+  
+    - **Caliper Clearance Volume:**  
+    The entire simplified caliper body was designated as obstacle geometry with a 0.5 mm offset, ensuring that the generative model would not interfere with inserting or removing the caliper.
+  
+  - **Grip Clearance:**  
+    A rectangular obstacle volume was added in front of the main caliper body to maintain clear access to the caliper’s measurement guide, allowing easy grasping for removal from the stand.
+  
+  - **Battery Access Clearance:**  
+    The preserve volume for the battery storage areas was extended vertically to prevent material generation above the batteries, ensuring they remain accessible.
 
 
   ### Load Cases and Structural Constraints
