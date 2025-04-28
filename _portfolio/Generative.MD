@@ -128,4 +128,7 @@ Created a simplified model of the calipers to define critical interfaces and cle
 - Selected a final geometry that balanced minimal mass with functional stability and clearance requirements for everyday caliper use.
 
 ### Fusion 360 Iterations
+
+{% include gallery caption="" %}
+
   
