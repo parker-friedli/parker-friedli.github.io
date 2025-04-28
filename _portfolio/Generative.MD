@@ -34,9 +34,7 @@ The purpose of this project was to produce a stand for 6-inch digital calipers u
 
 After creating a simplified model of the calipers, additional perserve and obsticle geometries were created with the goal of providing support of the calipers. Specifically, preserve geometries were created at three contact points where the caliper body rests: the main blade/scale of caliper (longest part of the body), a back rest behind the calipers center of mass, and an area to cradle the lower measurement jaws. A fourth preserve geometry was created to serve as a base footprint to rest on table or other surface.
 
-Obstacle geometries were defined around the areas where the caliper would need to move freely. Meaning the main obstacle geometry involved the simplified model of the calipers with an obstacle offset of 0.5 mm. The second geometry invloved a simplified rectangular prism placed in front of the main caliper body to ensure the measurement guide would be both visible while displayed and easily grabbed by this portion to take the calipers off of the stand. Additional preserve geometries were created in the base footprint to serve as storage space for additional caliper batteries. Note that the preserve geometry for the batteries was defined to be taller than the batteries to ensure the model would not generate in the space above such that the batteries could still be able to be removed when needed.
-
-  **Preserve Geometries *(green components)***
+**Preserve Geometries *(green components)***
   - **Main Blade/Scale Support:**  
     A preserve region along the length of the caliper’s main blade was created to provide continuous support for the body during storage.
   
@@ -48,6 +46,9 @@ Obstacle geometries were defined around the areas where the caliper would need t
   
   - **Base Footprint:**  
     A preserve was added to define a stable base platform where the stand rests securely on a table or workbench surface.
+
+Obstacle geometries were defined around the areas where the caliper would need to move freely. Meaning the main obstacle geometry involved the simplified model of the calipers with an obstacle offset of 0.5 mm. The second geometry invloved a simplified rectangular prism placed in front of the main caliper body to ensure the measurement guide would be both visible while displayed and easily grabbed by this portion to take the calipers off of the stand. Additional preserve geometries were created in the base footprint to serve as storage space for additional caliper batteries. Note that the preserve geometry for the batteries was defined to be taller than the batteries to ensure the model would not generate in the space above such that the batteries could still be able to be removed when needed.
+
   
   **Obstacle Geometries *(red components)***
   
