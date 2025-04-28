@@ -20,9 +20,16 @@ gallery:
 
 ## Project Overview
 
+The purpose of this project was to produce a stand for 6-inch digital calipers using generative desig stand for use in lab/workshop environments. It provides a stable, upright storage solution that keeps calipers accessible for quick use and protecting them from damage. While a caliper stand is not traditionally the type of component optimized through generative design—compared to brackets or structural assemblies—this project adapted the use case to explore the generative design process and produce a unique asthetic design. The choice for a calipers stand was made based on the fact it is the tool I frequently rely on in fabrication and coursework, and creating a dedicated, space-efficient holder directly improved organization with the added benefit of display. 
+
 ---
 ## Design Setup
   ### Preserve and Obstacle Geometry
+
+After creating a simplified model of the calipers, additional perserve and obsticle geometries were created with the goal of providing support of the calipers. Specifically, preserve geometries were created at three contact points where the caliper body rests: the main blade/scale of caliper (longest part of the body), a back rest behind the calipers center of mass, and an area to cradle the lower measurement jaws. A fourth preserve geometry was created to serve as a base footprint to rest on table or other surface.
+
+Obstacle geometries were defined around the areas where the caliper would need to move freely. Meaning the main obstacle geometry involved the simplified model of the calipers with an obstacle offset of 0.5 mm. The second geometry invloved a simplified rectangular prism placed in front of the main caliper body to ensure the measurement guide would be both visible while displayed and easily grabbed by this portion to take the calipers off of the stand. Additional preserve geometries were created in the base footprint to serve as storage space for additional caliper batteries. Note that the preserve geometry for the batteries was defined to be taller than the batteries to ensure the model would not generate in the space above such that the batteries could still be accessible by hand.
+
   - **Preserve Geometry**
     - Mounting cradle contact points for securing the caliper.
     - Stable base footprint to resist tipping.
