@@ -63,19 +63,60 @@ Obstacle geometries were defined around the areas where the caliper would need t
 
 
 ### Load Cases and Structural Constraints
-  | Load Type         | Approximate Value | Application Area       | Reasoning                        |
-|-------------------|-------------------|-------------------------|----------------------------------|
-| Vertical Load     | ~3 N               | Support arms and base   | Support weight of caliper        |
-| Lateral Shear     | ~2 N               | Cradle and holder area  | Simulate bumping during use      |
-| Moment (Torque)   | ~0.3 Nm            | Base around center      | Simulate tipping from imbalance  |
+
+### Types of Forces Applied
+Three types of forces were applied in the generative design study:
+- *Normal Force:* Simulated the weight of the caliper resting on the stand, applied at center of mass. Additional normal forces at all contact points simulating compression from weight of caliper.
+- *Lateral Shear Load:* Represented small side forces from incidental bumps or sliding contact during placement or removal.
+- *Moment (Tipping Load):* Modeled the potential tipping effect if the caliper was placed unevenly, and to represent excess moment of weight from unsported section of caliper. 
+
+Each of these forces were applied in excess (i.e. high safety factor) such that the final design maintained both stability and functionality during  use, accounting for main static loads (the caliper’s weight) as well as possible dynamic interactions (bumping and tipping).
+
+### Load Magnitude, Direction, and Location
+- The *vertical normal load* was estimated at approximately 3 N, based on the mass of a typical 6-inch digital caliper (~300 grams) and converted using \( F = m \times g \).
+- The *lateral shear load* was estimated at about 2 N, accounting for light side impacts from a user's hand or workspace movement.
+- The *moment load* was approximated at 0.3 Nm to represent a small rotational force acting around the base edge if the caliper was bumped unevenly.
+
+Loads were applied at the main contact points where the caliper body rests: the blade/scale support area, the lower jaw cradle, and the back rest. The moment was centered around the footprint where the stand contacts the surface.
+
+### Structural Constraints
+Fixed constraints were applied at the bottom face of the base footprint to simulate the stand resting securely on a flat table surface. This constraint anchored the stand during the generative process, ensuring that optimization efforts focused on reinforcing the load paths above the base while minimizing material in less critical regions. The fixed boundary conditions helped the generative design produce a structure that maintained stability without unnecessarily thickening the base, contributing to weight reduction.
+
+### Real-World Testing to Refine Loads
+The prototype can be tested by placing a caliper onto the stand and simulating everyday handling conditions. Testing would involve:
+- Applying vertical loading by resting and removing the caliper repeatedly.
+- Simulating shear forces by lightly pushing the caliper from the side to test lateral stability.
+- Intentionally applying small tipping forces to verify the stand’s resistance to overturning.
+
+If excessive flexing, deformation, or instability is observed during testing, adjustments could be made to refine the estimated loads or modify preserve regions to reinforce weak points. Real-world testing ensures that the simplified load assumptions made during the generative setup accurately reflect how the stand behaves under true usage conditions.
+
+| Force Name           | Approximate Magnitude | Applied Location                   | Purpose                                                                                  |
+|----------------------|------------------------|-------------------------------------|------------------------------------------------------------------------------------------|
+| Normal Force         | ~3 N (distributed)      | Center of mass and contact points   | Simulate caliper weight and localized compression at main support areas                 |
+| Lateral Shear Load   | ~2 N                    | Side of caliper body and stand      | Simulate side impacts or incidental bumps during placement and removal                  |
+| Moment (Tipping Load)| ~0.3 Nm                 | Around base footprint              | Simulate tipping from uneven placement and excess moment from unsupported caliper mass   |
 
 - **Structural Constraints:**
-  - Fixed constraint applied at the bottom of the base, simulating a stable surface like a lab bench.
-  - Loads applied based on typical handling forces when placing or removing the caliper.
-
+  - Fixed constraint applied at the bottom of the base, simulating a stable surface like a lab table.
 
 ---
 ## Generative Design Process
+- **Software:** Autodesk Fusion 360 (Generative Design workspace)
+- **Material:** Nylon 12 (PA12) using SLS (Selective Laser Sintering) on the Formlabs Fuse 1 printer
+- **Unrestricted Manufacturing:**  
+  Full use of unrestricted manufacturing settings to take advantage of the SLS process and allow complex geometries without support structures.
+- **Additive Z-Axis Constraint:**  
+  Additive manufacturing along the Z-axis was enabled to accommodate potential prototyping and minor post-processing. This setting allowed for minor design corrections or small features to be easily modified or repaired with traditional FDM 3D printing if necessary during iteration.
+
 ### Workflow Summary
+Created a simplified model of the calipers to define critical interfaces and clearances.
+- Defined **preserve geometries** at three main caliper contact points (blade/scale support, lower jaw cradle, back rest) and the base footprint for surface stability.
+- Created **obstacle geometries** around the caliper clearance volume (with 0.5 mm offset), around the gripping area for easy removal, and above the battery storage locations to maintain access.
+- Applied three main types of loads to the preserves:  
+  *Normal forces* to simulate caliper weight, *lateral shear* to simulate side impacts, and *tipping moments* to model uneven placement stresses.
+- Applied fixed constraints along the bottom surface of the base footprint to simulate a rigid surface interaction.
+- Ran multiple generative design studies prioritizing lightweighting while maintaining sufficient stiffness and support at contact points.
+- Selected a final geometry that balanced minimal mass with functional stability and clearance requirements for everyday caliper use.
+
 ### Fusion 360 Iterations
   
