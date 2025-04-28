@@ -6,14 +6,11 @@ header:
   image: /assets/img/caliper_stand_render.png
   teaser: /assets/img/caliper_stand_render.png
 gallery:
-  - image_path: assets/img/Lower_clamp.png
-  - image_path: assets/img/Upper_clamp.png
-  - image_path: assets/img/Inner_detent.png
-  - image_path: assets/img/outer_detent.png
-  - image_path: assets/img/stretch_band.png
-  - image_path: assets/img/Detent_cover.png
-  - image_path: assets/img/slider.png
-  - image_path: assets/img/Slider_holder.png
+  - image_path: assets/img/gen_1.png
+  - image_path: assets/img/gen_2.png
+  - image_path: assets/img/gen_3.png
+  - image_path: assets/img/gen_4.png
+  - image_path: assets/img/gen_5.png
 
 ---
 
@@ -26,15 +23,13 @@ The purpose of this project was to produce a stand for 6-inch digital calipers u
 ## Design Setup
 
 ### Preserve and Obstacle Geometry
-
 <p align="center">
-  <img src="/assets/img/front.png" width="45%">
-  <img src="/assets/img/back.png" width="45%">
+  <img src="/assets/img/fbd.png" width="75%">
 </p>
 
 After creating a simplified model of the calipers, additional perserve and obsticle geometries were created with the goal of providing support of the calipers. Specifically, preserve geometries were created at three contact points where the caliper body rests: the main blade/scale of caliper (longest part of the body), a back rest behind the calipers center of mass, and an area to cradle the lower measurement jaws. A fourth preserve geometry was created to serve as a base footprint to rest on table or other surface.
 
-**Preserve Geometries *(green components in figure above)***
+**Preserve Geometries *(green components)***
   - **Main Blade/Scale Support:**  
     A preserve region along the length of the caliper’s main blade was created to provide continuous support for the body during storage.
   
@@ -54,7 +49,7 @@ After creating a simplified model of the calipers, additional perserve and obsti
 Obstacle geometries were defined around the areas where the caliper would need to move freely. Meaning the main obstacle geometry involved the simplified model of the calipers with an obstacle offset of 0.5 mm. The second geometry invloved a simplified rectangular prism placed in front of the main caliper body to ensure the measurement guide would be both visible while displayed and easily grabbed by this portion to take the calipers off of the stand. Additional preserve geometries were created in the base footprint to serve as storage space for additional caliper batteries. Note that the preserve geometry for the batteries was defined to be taller than the batteries to ensure the model would not generate in the space above such that the batteries could still be able to be removed when needed.
 
   
-  **Obstacle Geometries *(red components in figure above)***
+  **Obstacle Geometries *(red components)***
   
    - **Caliper Clearance Volume:**  
     The entire simplified caliper body was designated as obstacle geometry with a 0.5 mm offset, ensuring that the generative model would not interfere with inserting or removing the caliper.
@@ -65,6 +60,10 @@ Obstacle geometries were defined around the areas where the caliper would need t
   - **Battery Access Clearance:**  
     The preserve volume for the battery storage areas was extended vertically to prevent material generation above the batteries, ensuring they remain accessible.
 
+<p align="center">
+  <img src="/assets/img/front.png" width="45%">
+  <img src="/assets/img/back.png" width="45%">
+</p>
 
 ### Load Cases and Structural Constraints
 
@@ -73,6 +72,12 @@ Three types of forces were applied in the generative design study:
 - *Normal Force:* Simulated the weight of the caliper resting on the stand, applied at center of mass. Additional normal forces at all contact points simulating compression from weight of caliper.
 - *Lateral Shear Load:* Represented small side forces from incidental bumps or sliding contact during placement or removal.
 - *Moment (Tipping Load):* Modeled the potential tipping effect if the caliper was placed unevenly, and to represent excess moment of weight from unsported section of caliper. 
+
+<p align="center">
+  <img src="/assets/img/normal.png" width="30%">
+  <img src="/assets/img/moment.png" width="30%">
+  <img src="/assets/img/normal.png" width="30%">
+</p>
 
 Each of these forces were applied in excess (i.e. high safety factor) such that the final design maintained both stability and functionality during  use, accounting for main static loads (the caliper’s weight) as well as possible dynamic interactions (bumping and tipping).
 
