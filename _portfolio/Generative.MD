@@ -76,7 +76,7 @@ Three types of forces were applied in the generative design study:
 <p align="center">
   <img src="/assets/img/normal.png" width="30%">
   <img src="/assets/img/moment.png" width="30%">
-  <img src="/assets/img/normal.png" width="30%">
+  <img src="/assets/img/shear.png" width="30%">
 </p>
 
 Each of these forces were applied in excess (i.e. high safety factor) such that the final design maintained both stability and functionality during  use, accounting for main static loads (the caliper’s weight) as well as possible dynamic interactions (bumping and tipping).
