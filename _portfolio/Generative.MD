@@ -1,6 +1,6 @@
 ---
 
-title: "Generative Design Project"
+title: "Digital Caliper Stand | Generative Design Project"
 excerpt: "Using Fusions generative design workspace to create digital caliper stand."
 header:
   image: /assets/img/IMG_5183.jpeg
@@ -17,7 +17,6 @@ gallery:
 
 ---
 
-# Digital Caliper Stand | Generative Design Project
 
 ## Project Overview
 The final part is a lightweight, generatively designed stand for a standard 6-inch digital caliper. In typical lab and workshop environments, calipers are often placed loosely on benches, risking damage to their sensitive jaws and compromising measurement accuracy. Commercial caliper stands tend to be bulky, overbuilt, or not optimized for frequent handling.
